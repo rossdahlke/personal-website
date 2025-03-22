@@ -5,8 +5,6 @@ description: "When dealing with chronic disability, having the right ergonomic e
 author: "Ross Dahlke"
 ---
 
-# My Personal Ergonomic Equipment Recommendations for Disability and Chronic Pain
-
 A lot of people ask me for advice about ergonomic equipment and the equipment that I use for my person chronic disability. I usually then ask people if there's anything specific that they're interested in, whether it be a desk, a keyboard, or anything else. The response I get every time is, "Everything!" So, instead of typing up my recommendations from scratch each time, I am consolidating my personal experiences and recommendations into this guide. Of course, you should always consult with your doctor and an ergonomist instead of just relying on one random person's experiences, but I hope some of these recommendations can get people started.
 
 ---

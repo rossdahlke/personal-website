@@ -18,14 +18,14 @@ export function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-[var(--background)] bg-opacity-80 border-b border-[var(--border-color)]">
-      <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-1">
+      <div className="container mx-auto">
+        <div className="flex items-center justify-between h-14 md:h-16">
+          <div className="flex items-center space-x-1 md:space-x-2 overflow-x-auto hide-scrollbar">
             {navItems.map(({ href, label }) => (
               <Link
                 key={href}
                 href={href}
-                className={`nav-link ${pathname === href ? 'active' : ''}`}
+                className={`nav-link whitespace-nowrap ${pathname === href ? 'active' : ''}`}
               >
                 {label}
               </Link>
@@ -34,7 +34,7 @@ export function Navigation() {
           
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg hover:bg-[var(--background-secondary)] transition-all duration-200"
+            className="p-2 rounded-lg hover:bg-[var(--background-secondary)] transition-all duration-200 flex-shrink-0"
             aria-label="Toggle theme"
           >
             {theme === 'light' ? (

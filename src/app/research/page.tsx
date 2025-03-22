@@ -13,13 +13,40 @@ type Publication = {
     url: string
     outlet: string
   }>
+  isCoFirstAuthored?: boolean
 }
 
 export default async function Research() {
+  const boldAuthorName = (authors: string, isCoFirstAuthored: boolean = false) => {
+    let result = authors;
+    
+    // Handle Moore's name first (no bold, just asterisk if co-first)
+    if (isCoFirstAuthored) {
+      result = result
+        .replace(/Moore, R\. C\.,/g, 'Moore, R. C.*,')
+        .replace(/Moore, R\.,/g, 'Moore, R.*,');
+    }
+
+    // Then handle Dahlke's name
+    const dahlkePattern = isCoFirstAuthored ? 
+      /Dahlke, R\.(?:\*)?(?:,|\b)/g :
+      /Dahlke, R\.(?:,|\b)/g;
+    
+    const dahlkeReplacement = isCoFirstAuthored ?
+      '<strong>Dahlke, R.*</strong>,' :
+      '<strong>Dahlke, R.</strong>,';
+    
+    result = result.replace(dahlkePattern, dahlkeReplacement);
+
+    // Clean up trailing comma if name is at the end
+    return result.replace(/,\s*$/g, '');
+  };
+
   const publications = [
     {
       title: "Exposure to untrustworthy websites in the 2020 US election",
       authors: "Moore, R. C., Dahlke, R., & Hancock, J. T.",
+      isCoFirstAuthored: true,
       year: 2023,
       journal: "Nature Human Behaviour",
       volume: "7",
@@ -57,6 +84,7 @@ export default async function Research() {
     {
       title: "The Private Life of QAnon: A Mixed Methods Investigation of Americans' Exposure to QAnon Content on the Web",
       authors: "Moore, R. C., Dahlke, R., Forberg, P. L., & Hancock, J. T.",
+      isCoFirstAuthored: true,
       year: 2024,
       journal: "Proceedings of the ACM on Human-Computer Interaction",
       volume: "8(CSCW2)",
@@ -104,7 +132,8 @@ export default async function Research() {
     },
     {
       title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
-      authors: "Moore, R., Dahlke, R., Bengani, P., & Hancock, J.",
+      authors: "Moore, R. C., Dahlke, R., Bengani, P., & Hancock, J.",
+      isCoFirstAuthored: true,
       year: 2023,
       journal: "OSF",
       doi: "https://doi.org/10.31219/osf.io/3bwz6",
@@ -124,7 +153,7 @@ export default async function Research() {
   return (
     <div className="section">
       <div className="max-w-3xl mx-auto">
-        <header className="mb-24">
+        <header className="mb-12">
           <h1 className="mb-6 text-4xl md:text-5xl font-bold tracking-tight">Research</h1>
           <p className="text-xl font-normal text-[var(--muted)] leading-relaxed max-w-2xl">
             My research uses computational methods, novel digital trace data collection, and field experiments to study how people interact with information online.
@@ -142,11 +171,15 @@ export default async function Research() {
                   {pub.title}
                 </h3>
                 <p className="text-base text-[var(--muted)] leading-relaxed">
-                  {pub.authors} ({pub.year}). <span className="italic">{pub.journal}</span>
+                  <span dangerouslySetInnerHTML={{ __html: boldAuthorName(pub.authors, pub.isCoFirstAuthored) }} /> 
+                  ({pub.year}). <span className="italic">{pub.journal}</span>
                   {pub.volume && `, ${pub.volume}`}
                   {pub.pages && `, ${pub.pages}`}.
                 </p>
-                <div className="flex flex-col gap-2 pt-2">
+                <div className="flex flex-col">
+                  {pub.isCoFirstAuthored && (
+                    <p className="text-sm text-[var(--muted)] italic pb-0.5">* Co-first authors</p>
+                  )}
                   {pub.doi && (
                     <a 
                       href={pub.doi} 

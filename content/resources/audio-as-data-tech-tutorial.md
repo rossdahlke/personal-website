@@ -5,8 +5,6 @@ description: "A tutorial on audio processing using Python libraries like librosa
 author: "Ross Dahlke"
 ---
 
-# Audio-as-Data Tech Tutorial
-
 In this tutorial, we will be covering some of the basics of audio analysis for social science research.
 
 There will be two main topics covered in this tutorial:
