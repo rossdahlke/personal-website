@@ -1,0 +1,181 @@
+PRD: Ross Dahlke’s Personal Website
+
+1. Project Overview
+-------------------
+Primary Goal: Create a personal website for Ross Dahlke, assistant professor at the University of Wisconsin–Madison’s School of Journalism and Mass Communication.
+Key Themes: Professorial, data sciency, computer vibe, minimalistic yet polished, easy to update.
+Style Approach:
+- Mostly black and white
+- UW–Madison’s brand colors for accents (use exact hex codes when relevant)
+- Light and dark mode toggle
+- Typography: FiraCode or similar monospaced font with ligatures
+
+2. Pages & Content
+-------------------
+
+2.1 Homepage
+------------
+Required Elements:
+1) Headshot photo of Ross
+2) Name, title, and short (1–2 paragraphs) bio
+3) Casual and friendly tone
+
+Styling:
+- Minimal, almost markdown-like
+- Keep design clutter-free
+
+2.2 Research Page
+-----------------
+Purpose: List academic publications in APA format.
+
+Requirements:
+1) Display publications in a simple list (no cards).
+2) Each entry includes:
+   - Title (APA style)
+   - Authors
+   - Publication year, etc.
+   - Clickable link to article or publisher’s page
+   - (Optional) Downloadable PDF if available
+   - (Potential Future Enhancement) Automatic syncing with Google Scholar
+Styling:
+- Simple text-based layout
+
+2.3 Teaching Page
+-----------------
+Purpose: Showcase courses Ross teaches.
+
+Requirements:
+1) For each course:
+   - Name
+   - Short description
+   - Link to GitHub repo or relevant resource
+
+Styling:
+- Consistent with rest of the site (markdown feel)
+
+2.4 Other Resources Page
+------------------------
+Purpose: Serve as a dumping ground for interesting things (not a traditional blog).
+
+Requirements:
+1) Renders a list of Markdown files from a designated folder.
+2) Each Markdown file is automatically displayed with:
+   - Title
+   - Date
+   - (Future) Page views or popularity metric
+3) Sorting controls (future enhancements) by:
+   - Date created/updated
+   - Title
+   - Page views (popularity)
+4) Each resource appears as a simple text link. Clicking it loads the full markdown content (with images, hyperlinks, etc., as needed).
+
+Styling:
+- Minimal text listing with optional date next to each link
+
+2.5 Global Elements
+-------------------
+Header:
+- Main navigation links: Home, Research, Teaching, Other Resources
+- Social icons for GitHub, X (Twitter), Bluesky, Google Scholar
+
+Footer:
+- Simple text-based copyright notice or disclaimers (optional)
+- Possibly “© [Year] Ross Dahlke”
+- Contact info: email address
+- Or keep it minimal if no disclaimers are necessary
+
+3. Design & Visual Requirements
+-------------------------------
+1) Color Scheme:
+   - Mostly black text on white background with a dark mode option.
+   - Use UW–Madison brand colors for accent elements (headings, links, hover states).
+2) Font & Layout:
+   - Use FiraCode or a fallback monospaced font.
+   - Keep layout minimal and “markdown-like.”
+   - Provide built-in toggles or classes for dark/light mode.
+3) Imagery:
+   - One headshot on the homepage.
+   - Optionally allow images in “Other Resources” markdown posts.
+
+4. Functional Requirements
+--------------------------
+
+4.1 Markdown Processing
+- Automatically detect and parse markdown files from a specified folder (e.g., /resources).
+- Generate pages for each markdown file.
+- (Future) Add metadata extraction from YAML front matter if desired.
+
+4.2 Sorting & Future Enhancements
+- Initial Implementation: Simple list sorted by date (descending).
+- Future: Add UI controls to sort by date, title, or page views.
+- Page views require an analytics or site-tracking approach (to be decided later).
+
+4.3 Light/Dark Mode Toggle
+- Provide a button or icon for switching themes.
+- Persist user preference (local storage or cookies).
+
+4.4 Downloadable PDFs
+- For each publication on the Research page, optionally include a link to a PDF.
+
+5. Technical Requirements
+-------------------------
+1) Recommended Framework: Next.js (React-based) for dynamic content and easy updates.
+2) Deployment:
+   - Short-Term: GitHub Pages or Vercel (works well with Next.js).
+   - Long-Term: Custom domain rossdahlke.com.
+3) Open Source:
+   - Code stored in a public GitHub repo.
+   - Licensing of written content is not a concern at this stage.
+4) Analytics:
+   - No immediate integration.
+   - Outline how to add Google Analytics or similar in the future.
+
+6. Implementation & Launch
+--------------------------
+
+6.1 Prototype
+- Generate sample wireframes or style mockups with at least two design variants:
+  Variant A: White background with subtle UW–Madison accent colors for headings.
+  Variant B: A more code-like layout with darker elements from the start.
+
+6.2 Staging & Testing
+- Once a design direction is chosen, build a staging site.
+- Test dark/light mode, markdown rendering, publication formatting.
+- Confirm basic accessibility (semantic HTML, alt text).
+
+6.3 Final Launch
+- Point rossdahlke.com to the final host.
+- Verify all links, PDFs, and external articles.
+
+7. Maintenance & Future Enhancements
+------------------------------------
+1) Single Maintainer:
+   - Ross will manage content updates. Provide instructions for adding markdown files and editing pages.
+2) Analytics & Popularity:
+   - Later, add an analytics service to track page views and enable “Most Popular” sorting.
+3) Google Scholar Sync:
+   - Possible future integration of Google Scholar API or scraping tool.
+4) Obsidian Integration:
+   - Explore embedding or linking to Obsidian vault pages.
+
+8. Open Questions & Notes for Cursor Agent
+------------------------------------------
+1) Multiple Options:
+   - During design generation, propose multiple variants for color usage, layout style, and typography weighting.
+2) Dark Mode Implementation:
+   - Suggest at least two approaches (CSS variables with a toggle switch or a UI library’s dark mode features).
+3) Markdown Folder Structure:
+   - Recommend a setup like /content/resources/markdown-posts for easy organization.
+4) APA Reference Formatting:
+   - Must be in APA style with minimal overhead for Ross to update.
+5) Performance:
+   - Keep site load times low, possibly static exports with Next.js.
+
+Conclusion
+----------
+This PRD outlines the core requirements for Ross Dahlke’s personal website in a minimal, flexible, and easy-to-update manner. Next steps involve prototyping the UI, implementing the pages, and ensuring a smooth process for adding new resources.
+
+Deliverables:
+1) Wireframes/Mockups – Two variants for homepage layout & color scheme.
+2) Functional Next.js Site – With all pages and markdown integration.
+3) Documentation – How to add publications, courses, and “Other Resources” posts.
