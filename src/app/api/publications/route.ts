@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server'
-import { fetchPublications } from '@/utils/scholarFetcher'
+import { getPublications } from '@/utils/scholarFetcher'
 
 export async function GET() {
   try {
-    const publications = await fetchPublications()
+    const publications = await getPublications()
     return NextResponse.json(publications)
   } catch (error) {
     console.error('Error fetching publications:', error)
