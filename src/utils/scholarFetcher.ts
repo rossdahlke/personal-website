@@ -1,5 +1,11 @@
 import { cache } from 'react'
 
+/**
+ * NOTE: This file is currently not in use. 
+ * Publications data is manually maintained in src/app/research/page.tsx
+ * This is a placeholder for future implementation of automatic publication fetching.
+ */
+
 interface Publication {
   title: string;
   authors: string;
@@ -9,6 +15,7 @@ interface Publication {
   doi?: string;
   volume?: string;
   pages?: string;
+  media_coverage?: string[];
 }
 
 const CACHE_KEY = 'scholar_publications'
@@ -16,27 +23,14 @@ const CACHE_DURATION = 24 * 60 * 60 * 1000 // 24 hours in milliseconds
 
 export const getPublications = cache(async (): Promise<Publication[]> => {
   try {
+    // TODO: Implement actual publication fetching logic
+    // Currently, publications are manually maintained in src/app/research/page.tsx
     const response = await fetch(
       'https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID&hl=en'
     )
     const data = await response.text()
     
-    // Parse the HTML response to extract publications
-    // This is a simplified example - you'll need to implement proper parsing
-    const publications: Publication[] = [
-      {
-        title: "Exposure to untrustworthy websites in the 2020 US election",
-        authors: "Moore, R. C., Dahlke, R., & Hancock, J. T.",
-        year: 2023,
-        journal: "Nature Human Behaviour",
-        volume: "7(7)",
-        pages: "1096-1105",
-        citations: 45,
-        doi: "https://doi.org/10.1038/s41562-023-01640-7"
-      }
-    ]
-    
-    return publications
+    return []
   } catch (error) {
     console.error('Error fetching publications:', error)
     return []

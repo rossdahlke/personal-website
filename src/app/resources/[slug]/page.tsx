@@ -71,7 +71,10 @@ export default async function ResourcePage({ params }: { params: { slug: string 
             prose-headings:font-bold prose-headings:tracking-tight
             prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl
             prose-pre:bg-[var(--background-secondary)] prose-pre:border prose-pre:border-[var(--border-color)]
+            prose-pre:p-4 prose-pre:my-4 prose-pre:overflow-x-auto prose-pre:rounded-lg
             prose-code:text-[var(--text)] prose-code:bg-[var(--background-secondary)] prose-code:px-1 prose-code:rounded
+            prose-code:font-mono prose-code:text-sm
+            prose-pre:code:bg-transparent prose-pre:code:p-0
             prose-a:text-[var(--link)] prose-a:no-underline hover:prose-a:text-[var(--link-hover)]
             prose-p:text-[var(--muted)] prose-li:text-[var(--muted)]"
           dangerouslySetInnerHTML={{ __html: resource.content }}

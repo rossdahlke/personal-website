@@ -22,10 +22,10 @@ export default async function Research() {
       authors: "Moore, R. C., Dahlke, R., & Hancock, J. T.",
       year: 2023,
       journal: "Nature Human Behaviour",
-      volume: "7(7)",
+      volume: "7",
       pages: "1096-1105",
-      citations: 45,
-      doi: "https://doi.org/10.1038/s41562-023-01640-7",
+      citations: 18,
+      doi: "https://doi.org/10.1038/s41562-023-01564-2",
       mediaCoverage: [
         {
           outlet: "The New York Times",
@@ -61,7 +61,7 @@ export default async function Research() {
       journal: "Proceedings of the ACM on Human-Computer Interaction",
       volume: "8(CSCW2)",
       pages: "1-34",
-      doi: "https://doi.org/10.1145/3610138"
+      doi: "https://doi.org/10.1145/3687057"
     },
     {
       title: "Quantifying the Systematic Bias in the Accessibility and Inaccessibility of Web Scraping Content from URL-Logged Web-Browsing Digital Trace Data",
@@ -84,26 +84,30 @@ export default async function Research() {
       authors: "Chen, B., Borah, P., Dahlke, R., & Lukito, J.",
       year: 2024,
       journal: "Journal of Quantitative Description: Digital Media",
-      volume: "4"
+      volume: "4",
+      doi: "https://journalqd.org/article/view/4299"
     },
     {
       title: "Audio-as-Data Tools: Replicating Computational Data Processing",
       authors: "Lukito, J., Greenfield, J., Yang, Y., Dahlke, R., Brown, M. A., Lewis, R., & Chen, B.",
       year: 2024,
       journal: "Media and Communication",
-      volume: "12"
+      volume: "12",
+      doi: "https://doi.org/10.17645/mac.7851"
     },
     {
       title: "The effect of online misinformation exposure on false election beliefs",
       authors: "Dahlke, R., & Hancock, J.",
       year: 2022,
-      journal: "OSF Preprints"
+      journal: "OSF Preprints",
+      doi: "https://doi.org/10.31219/osf.io/325tn"
     },
     {
       title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
       authors: "Moore, R., Dahlke, R., Bengani, P., & Hancock, J.",
       year: 2023,
       journal: "OSF",
+      doi: "https://doi.org/10.31219/osf.io/3bwz6",
       mediaCoverage: [
         {
           outlet: "Northwestern Local News Initiative",
@@ -123,9 +127,7 @@ export default async function Research() {
         <header className="mb-24">
           <h1 className="mb-6 text-4xl md:text-5xl font-bold tracking-tight">Research</h1>
           <p className="text-xl font-normal text-[var(--muted)] leading-relaxed max-w-2xl">
-            My research focuses on computational social science, social media, misinformation, 
-            and political communication. I use computational methods and field experiments to 
-            study how people interact with news and information online.
+            My research uses computational methods, novel digital trace data collection, and field experiments to study how people interact with information online.
           </p>
         </header>
         
