@@ -1,12 +1,12 @@
 import { NextResponse } from 'next/server'
-import { getPublications } from '@/utils/scholarFetcher'
+import { fetchPublications } from '@/utils/scholarFetcher'
 
 export async function GET() {
   try {
-    const publications = await getPublications()
+    const publications = await fetchPublications()
     return NextResponse.json(publications)
   } catch (error) {
-    console.error('Error in publications API:', error)
+    console.error('Error fetching publications:', error)
     return NextResponse.json(
       { error: 'Failed to fetch publications' },
       { status: 500 }
