@@ -46,7 +46,8 @@ export default async function ResourcesPage() {
           {resources.map((resource: any, idx: number) => (
             <article
               key={idx}
-              className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300"
+              className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
+              style={{ animationDelay: `${idx * 100}ms` }}
             >
               <div className="space-y-3">
                 <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2">

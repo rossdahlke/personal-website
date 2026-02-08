@@ -20,6 +20,7 @@ module.exports = {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.5s ease-out',
         'slide-down': 'slideDown 0.3s ease-in',
+        'stagger-in': 'staggerIn 0.5s ease-out both',
       },
       keyframes: {
         fadeIn: {
@@ -32,6 +33,10 @@ module.exports = {
         },
         slideDown: {
           '0%': { transform: 'translateY(-10px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        staggerIn: {
+          '0%': { transform: 'translateY(16px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
       },

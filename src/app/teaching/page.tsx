@@ -4,6 +4,8 @@ export const metadata = {
 }
 
 export default function Teaching() {
+  const currentSemester = "Spring 2026"
+
   const courses = [
     {
       code: "J677",
@@ -53,7 +55,8 @@ export default function Teaching() {
           {courses.map((course, index) => (
             <article
               key={index}
-              className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300"
+              className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="space-y-3">
                 <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2">
@@ -65,9 +68,17 @@ export default function Teaching() {
                     </h2>
                     <p className="text-sm text-[var(--muted)]">{course.university}</p>
                   </div>
-                  <span className="text-sm text-[var(--muted)]">
-                    {course.semester}
-                  </span>
+                  <div className="flex items-center gap-2">
+                    {course.semester === currentSemester && (
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium text-green-600 border border-green-500/20" style={{ backgroundColor: 'rgba(34, 197, 94, 0.1)' }}>
+                        <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                        Current
+                      </span>
+                    )}
+                    <span className="text-sm text-[var(--muted)]">
+                      {course.semester}
+                    </span>
+                  </div>
                 </div>
                 <p className="text-base text-[var(--muted)] leading-relaxed">
                   {course.description}

@@ -29,7 +29,8 @@ export default async function Research() {
   const renderPublication = (pub: Publication, index: number, total: number) => (
     <article
       key={index}
-      className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300"
+      className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
+      style={{ animationDelay: `${index * 100}ms` }}
     >
       <div className="space-y-2">
         <h2 className="mb-0 text-xl md:text-2xl font-medium text-[var(--text)] leading-tight group-hover:text-[var(--link)] transition-colors duration-300">
