@@ -7,6 +7,7 @@ import { useTheme } from './ThemeProvider'
 
 const navItems = [
   { href: '/', label: 'Home' },
+  { href: '/cv', label: 'CV' },
   { href: '/research', label: 'Research' },
   { href: '/teaching', label: 'Teaching' },
   { href: '/resources', label: 'Resources' },
