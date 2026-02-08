@@ -17,14 +17,14 @@ export const media: MediaItem[] = [
   },
   {
     outlet: "Badger Herald",
-    title: "In '107 Days,' Harris defends loss, looks ahead",
+    title: "In \u2018107 Days,\u2019 Harris defends loss, looks ahead",
     url: "https://badgerherald.com/books/2025/10/09/in-107-days-harris-defends-loss-looks-ahead-er-cc-rb/",
     date: "2025-10-09",
     topic: "Political Communication"
   },
   {
     outlet: "Mission Local",
-    title: "Kamala Harris isn't the only 'brat:' How S.F. mayoral candidates use social media",
+    title: "Kamala Harris isn\u2019t the only \u2018brat:\u2019 How S.F. mayoral candidates use social media",
     url: "https://missionlocal.org/2024/10/campaign-social-media-sf-mayoral-candidates/",
     date: "2024-10-29",
     topic: "Political Communication"
@@ -32,14 +32,14 @@ export const media: MediaItem[] = [
   // Coverage of "The Consumption of Pink Slime Journalism"
   {
     outlet: "The Boston Globe",
-    title: "Dozens of 'pink slime' sites masquerade as New England news outlets",
+    title: "Dozens of \u2018pink slime\u2019 sites masquerade as New England news outlets",
     url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/",
     date: "2024-06-26",
     topic: "Pink Slime Journalism"
   },
   {
     outlet: "Northwestern Local News Initiative",
-    title: "As 'pink slime' aims to fill local news vacuum, is anyone reading?",
+    title: "As \u2018pink slime\u2019 aims to fill local news vacuum, is anyone reading?",
     url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/",
     date: "2023-03-28",
     topic: "Pink Slime Journalism"
