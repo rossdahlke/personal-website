@@ -44,6 +44,7 @@ export default async function Research() {
             >
               <div className="space-y-2">
                 <h2 className="mb-0 text-xl md:text-2xl font-medium text-[var(--text)] leading-tight group-hover:text-[var(--link)] transition-colors duration-300">
+                  <span className="text-[var(--muted)] font-normal">{publications.length - index}.</span>{' '}
                   {pub.doi ? (
                     <a href={pub.doi} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--link)] transition-colors duration-300">
                       {pub.title}
