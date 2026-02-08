@@ -25,7 +25,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1073/pnas.2519944123"
   },
   {
-    title: "Contextualizing Misinformation Exposure at an Individual Level: Longitudinal Browsing Histories Reveal Stable Individual Differences Across Multiple US Elections",
+    title: "Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption",
     authors: "Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., & Hancock, J. T.",
     isCoFirstAuthored: true,
     year: 2025,
@@ -35,7 +35,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1145/3757571"
   },
   {
-    title: "Untrustworthy website exposure and election beliefs: A longitudinal assessment using behavioral and self-report data",
+    title: "Untrustworthy Website Exposure and Election Beliefs: Selective Exposure and Ideological Asymmetry",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
     journal: "Journal of Online Trust and Safety",
@@ -43,7 +43,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.54501/jots.v3i1.250"
   },
   {
-    title: "Candidates Be Posting: Examining Meta and X Platform Strategies of 2024 US Congressional Candidates",
+    title: "Candidates Be Posting: Multi-Platform Strategies and Partisan Preferences in the 2022 US Midterm Elections",
     authors: "Lukito, J., Macdonald, M., Dahlke, R., Bao, L., Yang, Y., Chen, B., Sun, Y., & Shah, D.",
     year: 2025,
     journal: "Social Media + Society",
