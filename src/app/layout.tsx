@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
-      <body className="font-mono">
+      <body className="font-sans">
         <ThemeProvider>
           <Navigation />
           <main className="container mx-auto py-8">
