@@ -139,7 +139,7 @@ export const preprints: Publication[] = [
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
     year: 2026,
-    journal: "Conditionally Accepted at Digital Journalism",
+    journal: "OSF Preprints",
     doi: "https://doi.org/10.31219/osf.io/3bwz6",
     award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
