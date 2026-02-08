@@ -11,9 +11,7 @@ export default async function Research() {
 
     if (isCoFirstAuthored && !authors.includes('*')) {
       // Add asterisks to co-first authors (Moore and Dahlke)
-      result = result
-        .replace(/Moore, R\. C\./g, 'Moore, R. C.*')
-        .replace(/Moore, R\./g, 'Moore, R.*');
+      result = result.replace(/Moore, R\.( C\.)?/g, (match) => `${match}*`);
     }
 
     // Bold Dahlke's name (with or without existing asterisk)
