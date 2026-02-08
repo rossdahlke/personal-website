@@ -3,10 +3,15 @@ import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Resources | Ross Dahlke',
+  description: 'Tutorials and guides for researchers and students.',
+}
+
 async function getResources() {
   const resourcesDirectory = path.join(process.cwd(), 'content', 'resources');
   const filenames = fs.readdirSync(resourcesDirectory);
-  
+
   const resources = filenames.map(filename => {
     const filePath = path.join(resourcesDirectory, filename);
     const fileContents = fs.readFileSync(filePath, 'utf8');
@@ -30,14 +35,17 @@ export default async function ResourcesPage() {
   return (
     <div className="section">
       <div className="max-w-3xl mx-auto">
-        <header className="mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Resources</h1>
+        <header className="mb-12">
+          <h1 className="mb-6 text-4xl md:text-5xl font-bold tracking-tight">Resources</h1>
+          <p className="text-xl font-normal text-[var(--muted)] leading-relaxed max-w-2xl">
+            Tutorials and guides for researchers and students.
+          </p>
         </header>
-        
+
         <div className="space-y-12">
           {resources.map((resource: any, idx: number) => (
-            <article 
-              key={idx} 
+            <article
+              key={idx}
               className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300"
             >
               <div className="space-y-3">
@@ -55,11 +63,6 @@ export default async function ResourcesPage() {
                     })}
                   </time>
                 </div>
-                {resource.author && (
-                  <p className="text-sm text-[var(--muted)]">
-                    By: {resource.author}
-                  </p>
-                )}
                 <p className="text-base text-[var(--muted)] leading-relaxed">
                   {resource.description}
                 </p>
@@ -81,4 +84,4 @@ export default async function ResourcesPage() {
       </div>
     </div>
   );
-} 
+}
