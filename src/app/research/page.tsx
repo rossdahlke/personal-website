@@ -9,9 +9,18 @@ export default async function Research() {
   const boldAuthorName = (authors: string, isCoFirstAuthored: boolean = false) => {
     let result = authors;
 
-    // Handle co-first author asterisks already in the data
-    // Bold Dahlke's name
+    if (isCoFirstAuthored && !authors.includes('*')) {
+      // Add asterisks to co-first authors (Moore and Dahlke)
+      result = result
+        .replace(/Moore, R\. C\./g, 'Moore, R. C.*')
+        .replace(/Moore, R\./g, 'Moore, R.*');
+    }
+
+    // Bold Dahlke's name (with or without existing asterisk)
     result = result.replace(/Dahlke\*?, R\./g, (match) => {
+      if (isCoFirstAuthored && !match.includes('*')) {
+        return `<strong>Dahlke, R.*</strong>`;
+      }
       return `<strong>${match}</strong>`;
     });
 
