@@ -8,22 +8,6 @@ export default function Teaching() {
     {
       code: "J677",
       title: "Concepts and Tools for Data Analysis and Visualization",
-      semester: "Spring 2025",
-      university: "University of Wisconsin\u2013Madison",
-      description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
-      slug: "j677-spring-2025"
-    },
-    {
-      code: "J677",
-      title: "Concepts and Tools for Data Analysis and Visualization",
-      semester: "Fall 2025",
-      university: "University of Wisconsin\u2013Madison",
-      description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
-      slug: "j677-fall-2025"
-    },
-    {
-      code: "J677",
-      title: "Concepts and Tools for Data Analysis and Visualization",
       semester: "Spring 2026",
       university: "University of Wisconsin\u2013Madison",
       description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
@@ -36,6 +20,22 @@ export default function Teaching() {
       university: "University of Wisconsin\u2013Madison",
       description: "This graduate seminar provides students with a toolkit for causal/statistical inference with observational data. Moving beyond simple correlations and basic regression, the course explores methods designed to mitigate bias and strengthen estimates from non-experimental data, including Interrupted Time Series, Synthetic Controls, Matching, Weighting, and Machine Learning approaches like Double Machine Learning and Causal Forests.",
       slug: "j818-fall-2025"
+    },
+    {
+      code: "J677",
+      title: "Concepts and Tools for Data Analysis and Visualization",
+      semester: "Fall 2025",
+      university: "University of Wisconsin\u2013Madison",
+      description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
+      slug: "j677-fall-2025"
+    },
+    {
+      code: "J677",
+      title: "Concepts and Tools for Data Analysis and Visualization",
+      semester: "Spring 2025",
+      university: "University of Wisconsin\u2013Madison",
+      description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
+      slug: "j677-spring-2025"
     }
   ]
 
