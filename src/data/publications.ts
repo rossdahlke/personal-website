@@ -11,6 +11,7 @@ export type Publication = {
     outlet: string
   }>
   isCoFirstAuthored?: boolean
+  award?: string
 }
 
 export const publications: Publication[] = [
@@ -135,8 +136,9 @@ export const publications: Publication[] = [
     authors: "Moore, R. C., Dahlke, R., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
     year: 2023,
-    journal: "OSF",
+    journal: "OSF Preprint",
     doi: "https://doi.org/10.31219/osf.io/3bwz6",
+    award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
       {
         outlet: "Northwestern Local News Initiative",
