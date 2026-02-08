@@ -16,7 +16,6 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
             <span className="text-[var(--muted)] font-medium">{course.semester}</span>
           </div>
           <p className="text-[var(--muted)] text-lg mb-2">{course.universityFull}</p>
-          <p className="text-sm text-[var(--muted)] italic mb-4">This course is also offered in Fall 2025 and Spring 2026. The syllabus below is from Spring 2025.</p>
           <p className="text-xl text-[var(--muted)] leading-relaxed">{course.description}</p>
         </header>
 
