@@ -130,13 +130,16 @@ export const publications: Publication[] = [
         url: "https://www.thedailybeast.com/stanford-study-finds-less-people-clicked-on-fake-news-sites-in-2020-election/"
       }
     ]
-  },
+  }
+]
+
+export const preprints: Publication[] = [
   {
     title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
-    authors: "Moore, R. C., Dahlke, R., Bengani, P., & Hancock, J.",
+    authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
-    year: 2023,
-    journal: "OSF Preprint",
+    year: 2026,
+    journal: "Conditionally Accepted at Digital Journalism",
     doi: "https://doi.org/10.31219/osf.io/3bwz6",
     award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
@@ -149,5 +152,19 @@ export const publications: Publication[] = [
         url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
       }
     ]
+  },
+  {
+    title: "The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging",
+    authors: "Dahlke, R., & Hancock, J.",
+    year: 2025,
+    journal: "OSF Preprints",
+    doi: "https://osf.io/6cpv8/"
+  },
+  {
+    title: "The state of digital media data research, 2023",
+    authors: "Lukito, J., Brown, M. A., Dahlke, R., Suk, J., Yang, Y., Zhang, Y., Chen, B., Kim, S. J., & Soorholtz, K.",
+    year: 2023,
+    journal: "Social Science Research Council",
+    doi: "http://dx.doi.org/10.26153/tsw/46177"
   }
 ]
