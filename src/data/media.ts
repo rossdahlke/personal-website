@@ -32,14 +32,14 @@ export const media: MediaItem[] = [
   // Coverage of "The Consumption of Pink Slime Journalism"
   {
     outlet: "The Boston Globe",
-    title: "Pink slime news sites are popping up across New England. Here's what to know.",
+    title: "Dozens of 'pink slime' sites masquerade as New England news outlets",
     url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/",
     date: "2024-06-26",
     topic: "Pink Slime Journalism"
   },
   {
     outlet: "Northwestern Local News Initiative",
-    title: "Stanford study examines who actually reads 'pink slime' news sites",
+    title: "As 'pink slime' aims to fill local news vacuum, is anyone reading?",
     url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/",
     date: "2023-03-28",
     topic: "Pink Slime Journalism"
@@ -47,14 +47,14 @@ export const media: MediaItem[] = [
   // Coverage of "Exposure to untrustworthy websites in the 2020 US election"
   {
     outlet: "World Economic Forum",
-    title: "Billions at the ballot box and a possible lasting mark on democracy",
+    title: "Billions at the ballot box, and a possible lasting mark on democracy",
     url: "https://www.weforum.org/stories/2024/01/billions-at-the-ballot-box-and-a-possible-lasting-mark-on-democracy/",
     date: "2024-01-16",
     topic: "Misinformation & Elections"
   },
   {
     outlet: "The New York Times",
-    title: "Misinformation dropped on some platforms after the 2020 election, study finds",
+    title: "Misinformation Defense Worked in 2020, Up to a Point, Study Finds",
     url: "https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html",
     date: "2023-04-13",
     topic: "Misinformation & Elections"
@@ -68,7 +68,7 @@ export const media: MediaItem[] = [
   },
   {
     outlet: "The Daily Beast",
-    title: "Stanford study finds fewer people clicked on fake news sites in 2020 election",
+    title: "Fewer People Clicked on Fake News Sites in 2020 Election",
     url: "https://www.thedailybeast.com/stanford-study-finds-less-people-clicked-on-fake-news-sites-in-2020-election/",
     date: "2023-04-13",
     topic: "Misinformation & Elections"
