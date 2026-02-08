@@ -45,7 +45,7 @@ export default function Teaching() {
         <header className="mb-12">
           <h1 className="mb-6 text-4xl md:text-5xl font-bold tracking-tight">Teaching</h1>
           <p className="text-xl font-normal text-[var(--muted)] leading-relaxed max-w-2xl">
-            Courses at the University of Wisconsin\u2013Madison School of Journalism and Mass Communication.
+            Courses at the University of Wisconsin–Madison School of Journalism and Mass Communication.
           </p>
         </header>
 
