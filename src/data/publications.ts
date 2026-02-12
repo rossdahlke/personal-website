@@ -135,6 +135,14 @@ export const publications: Publication[] = [
 
 export const preprints: Publication[] = [
   {
+    title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US election",
+    authors: "Dahlke*, R., Moore*, R. C., & Hancock, J. T.",
+    isCoFirstAuthored: true,
+    year: 2026,
+    journal: "OSF Preprints",
+    doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
+  },
+  {
     title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
