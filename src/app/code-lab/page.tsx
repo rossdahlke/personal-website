@@ -1,11 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { labMembers, researchProjects } from '@/data/lab'
+import { labMembers } from '@/data/lab'
 
 const anchorSections = [
   { id: 'overview', label: 'Overview' },
   { id: 'people', label: 'People' },
-  { id: 'research', label: 'Research' },
   { id: 'join', label: 'Join' },
 ]
 
@@ -62,7 +61,7 @@ export default function CodeLab() {
                       src={member.photo}
                       alt={member.name}
                       fill
-                      className="object-cover"
+                      className="object-cover object-top"
                     />
                   </div>
                 )}
@@ -89,35 +88,6 @@ export default function CodeLab() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* Research */}
-        <section id="research" className="scroll-mt-24 mb-16">
-          <h2 className="text-2xl font-semibold mb-8">Research</h2>
-          {researchProjects.length > 0 ? (
-            <div className="space-y-8">
-              {researchProjects
-                .filter((p) => p.status === 'active')
-                .map((project, index) => (
-                  <article
-                    key={index}
-                    className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
-                    style={{ animationDelay: `${index * 100}ms` }}
-                  >
-                    <h3 className="text-xl font-medium mb-2 group-hover:text-[var(--link)] transition-colors duration-300">
-                      {project.title}
-                    </h3>
-                    <p className="text-base text-[var(--muted)] leading-relaxed mb-0">
-                      {project.description}
-                    </p>
-                  </article>
-                ))}
-            </div>
-          ) : (
-            <p className="text-[var(--muted)] text-base italic">
-              Research projects coming soon.
-            </p>
-          )}
         </section>
 
         {/* Join */}
