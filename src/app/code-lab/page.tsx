@@ -61,7 +61,7 @@ export default function CodeLab() {
                       src={member.photo}
                       alt={member.name}
                       fill
-                      className="object-cover object-top"
+                      className="object-cover" style={{ objectPosition: '50% 25%' }}
                     />
                   </div>
                 )}
@@ -93,9 +93,12 @@ export default function CodeLab() {
         {/* Join */}
         <section id="join" className="scroll-mt-24 mb-16">
           <h2 className="text-2xl font-semibold mb-6">Join</h2>
-          <div className="card">
+          <div className="card space-y-4">
             <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
-              Information about joining the CODE Lab will be posted here soon. If you are a prospective student interested in computational communication research, feel free to reach out to <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a>.
+              If you are a current UW-Madison graduate student interested in the CODE Lab, please email <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a> for more details.
+            </p>
+            <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
+              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. In SJMC, we do not accept students on a 1:1 basis — students are admitted to the program more generally. If you are interested in working with me, please list me on your application.
             </p>
           </div>
         </section>
