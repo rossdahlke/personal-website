@@ -98,7 +98,7 @@ export default function CodeLab() {
               If you are a current UW-Madison graduate student interested in the CODE Lab, please email <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a> for more details.
             </p>
             <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
-              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. In SJMC, students are not accepted by faculty specifically. Students are instead admitted to the program more generally. If you are interested in working with me, please list me on your application.
+              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. In the SJMC, students are not accepted by faculty specifically. Students are instead admitted to the program more generally. If you are interested in working with me, please list me on your application.
             </p>
           </div>
         </section>
