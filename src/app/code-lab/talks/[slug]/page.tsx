@@ -25,6 +25,17 @@ export default function TalkPage({ params }: { params: { slug: string } }) {
   return (
     <div className="section">
       <div className="max-w-3xl mx-auto">
+        <div className="rounded-2xl overflow-hidden mb-12">
+          <Image
+            src="/images/code-hero-2.png"
+            alt="The CODE Lab"
+            width={1536}
+            height={500}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+
         <div className="mb-8">
           <Link
             href="/code-lab#talks"
