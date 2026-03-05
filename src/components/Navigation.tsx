@@ -12,6 +12,7 @@ const navItems = [
   { href: '/teaching', label: 'Teaching' },
   { href: '/media', label: 'Media' },
   { href: '/resources', label: 'Resources' },
+  { href: '/code-lab', label: 'CODE Lab', className: 'nav-link-lab', matchPrefix: true },
 ]
 
 export function Navigation() {
@@ -23,15 +24,24 @@ export function Navigation() {
       <div className="container mx-auto">
         <div className="flex items-center justify-between h-14 md:h-16">
           <div className="flex items-center space-x-1 md:space-x-2 overflow-x-auto hide-scrollbar">
-            {navItems.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className={`nav-link whitespace-nowrap ${pathname === href ? 'active' : ''}`}
-              >
-                {label}
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isActive = item.matchPrefix
+                ? pathname.startsWith(item.href)
+                : pathname === item.href
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`nav-link whitespace-nowrap ${item.className || ''} ${isActive ? 'active' : ''}`}
+                >
+                  {item.label === 'CODE Lab' ? (
+                    <><span className="font-mono">CODE</span> Lab</>
+                  ) : (
+                    item.label
+                  )}
+                </Link>
+              )
+            })}
           </div>
           
           <button

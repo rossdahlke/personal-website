@@ -11,6 +11,9 @@ module.exports = {
         'uw-red': '#C5050C',
         'uw-dark-red': '#9B0000',
         'uw-gray': '#646569',
+        'code-teal': '#0E7C7B',
+        'code-teal-light': '#E6F5F5',
+        'code-teal-dark': '#17BEBB',
       },
       fontFamily: {
         sans: ['var(--font-space-grotesk)'],

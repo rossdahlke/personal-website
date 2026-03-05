@@ -27,6 +27,26 @@
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
+/* CODE Lab section — light */
+[data-section="code-lab"] {
+  --background: #E6F5F5;
+  --background-secondary: #D6EDED;
+  --link: #0E7C7B;
+  --link-hover: #0A5E5D;
+  --gradient-start: rgba(14, 124, 123, 0.05);
+  --gradient-end: rgba(14, 124, 123, 0.01);
+}
+
+/* CODE Lab section — dark */
+[data-theme='dark'] [data-section="code-lab"] {
+  --background: #0F1A1A;
+  --background-secondary: #142222;
+  --link: #17BEBB;
+  --link-hover: #1FE0DD;
+  --gradient-start: rgba(23, 190, 187, 0.05);
+  --gradient-end: rgba(23, 190, 187, 0.01);
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -98,6 +118,14 @@
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }
+}
+
+/* CODE Lab nav tab */
+.nav-link-lab.active {
+  background-color: rgba(14, 124, 123, 0.1);
+}
+[data-theme='dark'] .nav-link-lab.active {
+  background-color: rgba(23, 190, 187, 0.1);
 }
 
 /* Modern Scrollbar */
