@@ -11,20 +11,8 @@ const anchorSections = [
 
 export default function CodeLab() {
   return (
-    <div className="section">
+    <div className="pb-24 animate-fade-in">
       <div className="max-w-3xl mx-auto">
-        {/* Hero Image */}
-        <div className="rounded-2xl overflow-hidden mb-12">
-          <Image
-            src="/images/code-hero-2.png"
-            alt="The CODE Lab"
-            width={1536}
-            height={400}
-            className="w-full h-auto"
-            priority
-          />
-        </div>
-
         {/* Header / Hero */}
         <header className="mb-16">
           <p className="font-mono text-[var(--link)] uppercase tracking-[0.2em] text-sm mb-4">
