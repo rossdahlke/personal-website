@@ -5,6 +5,7 @@ import { labMembers, talks } from '@/data/lab'
 const anchorSections = [
   { id: 'overview', label: 'Overview' },
   { id: 'people', label: 'People' },
+  { id: 'publications', label: 'Publications' },
   { id: 'talks', label: 'Talks' },
   { id: 'join', label: 'Join' },
 ]
@@ -42,10 +43,7 @@ export default function CodeLab() {
           <h2 className="text-2xl font-semibold mb-6">Overview</h2>
           <div className="space-y-4">
             <p className="text-base md:text-lg leading-relaxed">
-              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin-Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. As online information environments are increasingly shaped by artificial intelligence, from AI-generated content to algorithmically curated feeds, understanding what people actually see and its consequences requires new observational infrastructure and computational methods.
-            </p>
-            <p className="text-base md:text-lg leading-relaxed">
-              The lab uses large-scale behavioral data, including web browsing records and private messaging data, to observe real-world exposure. The lab also develops research infrastructure and computational tools for studying digital information environments at scale, and supports graduate training in computational methods for communication research.
+              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin-Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. Using large-scale behavioral data, including web browsing records and private messaging data, the lab builds observational infrastructure and computational tools for studying online information environments increasingly shaped by AI. Ongoing projects center on three data collections: a longitudinal panel of Americans&apos; web browsing and survey responses, a real-time archive of online prediction markets, and a panel study combining personal messaging data with surveys and ecological momentary assessments. The lab also supports graduate training in computational methods for communication research.
             </p>
           </div>
         </section>
@@ -88,6 +86,44 @@ export default function CodeLab() {
                 </div>
               </div>
             ))}
+          </div>
+        </section>
+
+        {/* Selected Publications */}
+        <section id="publications" className="scroll-mt-24 mb-16">
+          <h2 className="text-2xl font-semibold mb-2">Selected Publications</h2>
+          <p className="text-sm text-[var(--muted)] mb-8">* indicates equal authorship</p>
+
+          <h3 className="text-lg font-medium mb-4">Open Web</h3>
+          <div className="space-y-4 mb-8">
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke*, R., Moore*, R. C., &amp; Hancock, J. T. (2026). Exposure to (AI-Generated) Untrustworthy Websites in the 2024 US Election. <em>OSF Preprints</em>. <a href="https://doi.org/10.31234/osf.io/qtdmg_v1" target="_blank" rel="noopener noreferrer">https://doi.org/10.31234/osf.io/qtdmg_v1</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke*, R., Moore*, R. C., Bengani, P., &amp; Hancock, J. (2026). The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why? Forthcoming at <em>Digital Journalism</em>. <a href="https://doi.org/10.31219/osf.io/3bwz6" target="_blank" rel="noopener noreferrer">https://doi.org/10.31219/osf.io/3bwz6</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., &amp; Hancock, J. T. (2025). Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption. <em>Proceedings of the ACM on Human-Computer Interaction, 9</em>(CSCW1), 1-40. <a href="https://doi.org/10.1145/3757571" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3757571</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke, R., Kumar, D., Durumeric, Z., &amp; Hancock, J. T. (2025). Quantifying the Systematic Bias in the Accessibility and Inaccessibility of Web Scraping Content from URL-Logged Web-Browsing Digital Trace Data. <em>Social Science Computer Review, 43</em>(5), 1071-1086. <a href="https://doi.org/10.1177/08944393231218214" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/08944393231218214</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke, R., &amp; Hancock, J. (2025). Untrustworthy Website Exposure and Election Beliefs: Selective Exposure and Ideological Asymmetry. <em>Journal of Online Trust and Safety, 3</em>(1). <a href="https://doi.org/10.54501/jots.v3i1.250" target="_blank" rel="noopener noreferrer">https://doi.org/10.54501/jots.v3i1.250</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Moore*, R. C., Dahlke*, R., Forberg, P. L., &amp; Hancock, J. T. (2024). The Private Life of QAnon: A Mixed Methods Investigation of Americans&apos; Exposure to QAnon Content on the Web. <em>Proceedings of the ACM on Human-Computer Interaction, 8</em>(CSCW2), 1-34. <a href="https://doi.org/10.1145/3687057" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3687057</a>
+            </p>
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Moore*, R. C., Dahlke*, R., &amp; Hancock, J. T. (2023). Exposure to Untrustworthy Websites in the 2020 US Election. <em>Nature Human Behaviour, 7</em>, 1096-1105. <a href="https://doi.org/10.1038/s41562-023-01564-2" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41562-023-01564-2</a>
+            </p>
+          </div>
+
+          <h3 className="text-lg font-medium mb-4">Personal Messaging</h3>
+          <div className="space-y-4">
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke, R., &amp; Hancock, J. (2025). The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging. <em>OSF Preprints</em>. <a href="https://osf.io/6cpv8/" target="_blank" rel="noopener noreferrer">https://osf.io/6cpv8/</a>
+            </p>
           </div>
         </section>
 
@@ -136,7 +172,7 @@ export default function CodeLab() {
               If you are a current UW-Madison graduate student interested in the CODE Lab, please email <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a> for more details.
             </p>
             <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
-              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. In the SJMC, students are not accepted by faculty specifically. Students are instead admitted to the program more generally. If you are interested in working with me, please list me on your application.
+              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. The SJMC admits students to the program, not to individual faculty labs. If you are interested in working with me, please mention me in your application.
             </p>
           </div>
         </section>
