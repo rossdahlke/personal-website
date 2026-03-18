@@ -46,7 +46,7 @@ export default function TalkPage({ params }: { params: { slug: string } }) {
           </h1>
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             {talk.speakerPhoto && (
-              <div className="relative w-24 h-24 rounded-xl overflow-hidden flex-shrink-0">
+              <div className="relative w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0">
                 <Image
                   src={talk.speakerPhoto}
                   alt={talk.speaker}

@@ -55,7 +55,7 @@ export default function CodeLab() {
             {labMembers.map((member) => (
               <div key={member.name} className="card flex flex-col sm:flex-row gap-6">
                 {member.photo && (
-                  <div className="relative w-28 h-28 rounded-xl overflow-hidden flex-shrink-0">
+                  <div className="relative w-28 h-28 rounded-2xl overflow-hidden flex-shrink-0">
                     <Image
                       src={member.photo}
                       alt={member.name}
