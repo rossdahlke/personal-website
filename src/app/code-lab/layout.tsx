@@ -11,7 +11,7 @@ export default function CodeLabLayout({
   children: React.ReactNode
 }) {
   return (
-    <div data-section="code-lab" className="-mx-4 md:-mx-8 px-4 md:px-8 bg-[var(--background)] min-h-screen">
+    <div data-section="code-lab" className="-mx-4 md:-mx-8 px-4 md:px-8 bg-[var(--background)] min-h-screen rounded-2xl">
       <div className="max-w-3xl mx-auto pt-24">
         <div className="rounded-2xl overflow-hidden mb-12">
           <Image
