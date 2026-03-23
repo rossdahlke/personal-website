@@ -16,6 +16,14 @@ export type Publication = {
 
 export const publications: Publication[] = [
   {
+    title: "Style and substance on The Alex Jones Show predict InfoWars sales: a multi-modal analysis of a media empire",
+    authors: "Dahlke, R., Yang, Y., Lukito, J., Greenfield, J., Chen, B., Brown, M. A., & Lewis, R.",
+    year: 2026,
+    journal: "Information, Communication & Society",
+    pages: "1-20",
+    doi: "https://doi.org/10.1080/1369118X.2026.2642851"
+  },
+  {
     title: "Targeted digital voter suppression efforts likely decrease voter turnout",
     authors: "Kim, Y. M., Dahlke, R., Song, H., & Heinrich, R.",
     year: 2026,
