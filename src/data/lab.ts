@@ -20,7 +20,10 @@ export type Talk = {
   abstract: string
 }
 
-export const talks: Talk[] = [
+export const upcomingTalks: Talk[] = [
+]
+
+export const pastTalks: Talk[] = [
   {
     slug: 'moore-digital-literacy-2026',
     title: 'Short Educational Videos Improve Older Adults\u2019 Digital Literacy and Information Diets at Scale',

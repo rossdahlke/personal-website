@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { talks } from '@/data/lab'
+import { upcomingTalks, pastTalks } from '@/data/lab'
+
+const allTalks = [...upcomingTalks, ...pastTalks]
 
 export function generateStaticParams() {
-  return talks.map((talk) => ({ slug: talk.slug }))
+  return allTalks.map((talk) => ({ slug: talk.slug }))
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
-  const talk = talks.find((t) => t.slug === params.slug)
+  const talk = allTalks.find((t) => t.slug === params.slug)
   if (!talk) return { title: 'Talk Not Found' }
   return {
     title: `${talk.title} | CODE Lab`,
@@ -16,7 +18,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
 }
 
 export default function TalkPage({ params }: { params: { slug: string } }) {
-  const talk = talks.find((t) => t.slug === params.slug)
+  const talk = allTalks.find((t) => t.slug === params.slug)
 
   if (!talk) {
     return <div className="section"><p>Talk not found.</p></div>

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { labMembers, talks } from '@/data/lab'
+import { labMembers, upcomingTalks, pastTalks } from '@/data/lab'
 
 const anchorSections = [
   { id: 'overview', label: 'Overview' },
@@ -130,38 +130,82 @@ export default function CodeLab() {
         {/* Talks */}
         <section id="talks" className="scroll-mt-24 mb-16">
           <h2 className="text-2xl font-semibold mb-8">Talks</h2>
-          <div className="space-y-6">
-            {talks.map((talk, index) => (
-              <article
-                key={talk.slug}
-                className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className="space-y-2">
-                  <h3 className="text-xl font-medium text-[var(--text)] leading-tight group-hover:text-[var(--link)] transition-colors duration-300 mb-1">
-                    <Link href={`/code-lab/talks/${talk.slug}`}>
-                      {talk.title}
-                    </Link>
-                  </h3>
-                  <p className="text-base text-[var(--muted)] mb-0">{talk.speaker}</p>
-                  <p className="text-sm text-[var(--muted)] mb-0">
-                    {talk.date} · {talk.time} · {talk.location}
-                  </p>
-                  <div className="pt-1">
-                    <Link
-                      href={`/code-lab/talks/${talk.slug}`}
-                      className="inline-flex items-center text-sm text-[var(--link)] hover:text-[var(--link-hover)] group-hover:translate-x-1 transition-all duration-300"
-                    >
-                      Details
-                      <svg className="w-4 h-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+
+          {upcomingTalks.length > 0 && (
+            <>
+              <h3 className="text-lg font-medium mb-4">Upcoming</h3>
+              <div className="space-y-6 mb-8">
+                {upcomingTalks.map((talk, index) => (
+                  <article
+                    key={talk.slug}
+                    className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
+                    style={{ animationDelay: `${index * 100}ms` }}
+                  >
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-medium text-[var(--text)] leading-tight group-hover:text-[var(--link)] transition-colors duration-300 mb-1">
+                        <Link href={`/code-lab/talks/${talk.slug}`}>
+                          {talk.title}
+                        </Link>
+                      </h3>
+                      <p className="text-base text-[var(--muted)] mb-0">{talk.speaker}</p>
+                      <p className="text-sm text-[var(--muted)] mb-0">
+                        {talk.date} · {talk.time} · {talk.location}
+                      </p>
+                      <div className="pt-1">
+                        <Link
+                          href={`/code-lab/talks/${talk.slug}`}
+                          className="inline-flex items-center text-sm text-[var(--link)] hover:text-[var(--link-hover)] group-hover:translate-x-1 transition-all duration-300"
+                        >
+                          Details
+                          <svg className="w-4 h-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                          </svg>
+                        </Link>
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </>
+          )}
+
+          {pastTalks.length > 0 && (
+            <>
+              <h3 className="text-lg font-medium mb-4">Past</h3>
+              <div className="space-y-6">
+                {pastTalks.map((talk, index) => (
+                  <article
+                    key={talk.slug}
+                    className="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-[var(--border-color)] before:opacity-50 hover:before:bg-[var(--link)] before:transition-colors before:duration-300 animate-stagger-in"
+                    style={{ animationDelay: `${index * 100}ms` }}
+                  >
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-medium text-[var(--text)] leading-tight group-hover:text-[var(--link)] transition-colors duration-300 mb-1">
+                        <Link href={`/code-lab/talks/${talk.slug}`}>
+                          {talk.title}
+                        </Link>
+                      </h3>
+                      <p className="text-base text-[var(--muted)] mb-0">{talk.speaker}</p>
+                      <p className="text-sm text-[var(--muted)] mb-0">
+                        {talk.date} · {talk.time} · {talk.location}
+                      </p>
+                      <div className="pt-1">
+                        <Link
+                          href={`/code-lab/talks/${talk.slug}`}
+                          className="inline-flex items-center text-sm text-[var(--link)] hover:text-[var(--link-hover)] group-hover:translate-x-1 transition-all duration-300"
+                        >
+                          Details
+                          <svg className="w-4 h-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                          </svg>
+                        </Link>
+                      </div>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </>
+          )}
         </section>
 
         {/* Join */}
