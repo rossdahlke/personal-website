@@ -28,6 +28,7 @@ export const upcomingTalks: Talk[] = [
     speaker: 'Matt DeButts',
     speakerTitle: 'PhD Candidate, Department of Communication',
     speakerAffiliation: 'Stanford University',
+    speakerPhoto: '/images/matt-debutts.png',
     date: 'April 27, 2026',
     time: '12:00 PM - 1:00 PM',
     location: 'Nafziger Room 5055, Vilas Hall',
