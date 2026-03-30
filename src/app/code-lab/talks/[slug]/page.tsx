@@ -95,6 +95,15 @@ export default function TalkPage({ params }: { params: { slug: string } }) {
             {talk.abstract}
           </p>
         </section>
+
+        {talk.speakerBio && (
+          <section className="mt-12">
+            <h2 className="text-2xl font-semibold mb-4">About the Speaker</h2>
+            <p className="text-base md:text-lg leading-relaxed text-[var(--muted)]">
+              {talk.speakerBio}
+            </p>
+          </section>
+        )}
       </div>
     </div>
   )
