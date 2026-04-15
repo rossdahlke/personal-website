@@ -160,7 +160,7 @@ export const preprints: Publication[] = [
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
     year: 2026,
-    journal: "Forthcoming at Digital Journalism",
+    journal: "OSF Preprints",
     doi: "https://doi.org/10.31219/osf.io/3bwz6",
     award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
@@ -175,48 +175,18 @@ export const preprints: Publication[] = [
     ]
   },
   {
-    title: "Multi-Platform Referrers of Misinformation: A Comparative Ablation Study of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
-    authors: "Dahlke, R., Moore, R., Adib-Azpeitia, D., Ugander, J., & Hancock, J.",
-    year: 2026,
-    journal: "Conditionally Accepted at Political Communication"
-  },
-  {
     title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US election",
     authors: "Dahlke*, R., Moore*, R. C., & Hancock, J. T.",
     isCoFirstAuthored: true,
     year: 2026,
-    journal: "Revise & Resubmit at Nature Communications",
+    journal: "OSF Preprints",
     doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
-  },
-  {
-    title: "Cross-Platformization: How U.S. Right-Leaning Media Curate Their Posts on Twitter and Truth Social",
-    authors: "Lukito, J., Zhang, Y., Pruden, M., Prochaska, S., Chen, B., Zhong, W., Brown, M., Dahlke, R., Suk, J., Greenfield, J., & Borah, P.",
-    year: 2026,
-    journal: "Revise & Resubmit at New Media and Society"
-  },
-  {
-    title: "Do Politicians' Strategic Facial Expressions Drive Resonant Moments on Social Media? Computational Analysis of the 2024 U.S. Presidential Debate Using Multimodal Large Language Models",
-    authors: "Kwon, H., Jiang, X., & Dahlke, R.",
-    year: 2026,
-    journal: "Revise & Resubmit at International Journal of Communication"
-  },
-  {
-    title: "Electoral Prediction Markets: A Quantitative Description of Online Political Betting Markets",
-    authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
-    year: 2026,
-    journal: "Under Review"
-  },
-  {
-    title: "Replacing Smartphones With Minimal Mobile Phones Improves College Students' Trust in News but Not News-Finds-Me Perceptions",
-    authors: "Dahlke, R., Lee, A. Y., Stevic, A., Walker-Keleher, G., Chen, C. Q.-A., Charity, E., & Hancock, J. T.",
-    year: 2026,
-    journal: "Under Review"
   },
   {
     title: "The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
-    journal: "Under Review",
+    journal: "OSF Preprints",
     doi: "https://osf.io/6cpv8/"
   },
   {
