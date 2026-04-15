@@ -33,6 +33,19 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1073/pnas.2519944123"
   },
   {
+    title: "Going light: The effects of minimal mobile phone adoption on young adults' well-being depend on motivation",
+    authors: "Lee, A. Y., Stevic, A., Walker-Keleher, G., Chen, C., Charity, E., Dahlke, R., & Hancock, J.",
+    year: 2026,
+    journal: "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    doi: "https://doi.org/10.1145/3772318.3791723",
+    mediaCoverage: [
+      {
+        outlet: "The New York Times",
+        url: "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html"
+      }
+    ]
+  },
+  {
     title: "Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption",
     authors: "Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., & Hancock, J. T.",
     isCoFirstAuthored: true,
@@ -52,7 +65,7 @@ export const publications: Publication[] = [
   },
   {
     title: "Candidates Be Posting: Multi-Platform Strategies and Partisan Preferences in the 2022 US Midterm Elections",
-    authors: "Lukito, J., Macdonald, M., Dahlke, R., Bao, L., Yang, Y., Chen, B., Sun, Y., & Shah, D.",
+    authors: "Lukito, J., Macdonald, M., Chen, B., Brown, M. A., Prochaska, S., Yang, Y., Greenfield, J., Suk, J., Zhong, W., Dahlke, R., & Borah, P.",
     year: 2025,
     journal: "Social Media + Society",
     volume: "11(2)",
@@ -143,19 +156,11 @@ export const publications: Publication[] = [
 
 export const preprints: Publication[] = [
   {
-    title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US election",
-    authors: "Dahlke*, R., Moore*, R. C., & Hancock, J. T.",
-    isCoFirstAuthored: true,
-    year: 2026,
-    journal: "OSF Preprints",
-    doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
-  },
-  {
     title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
     isCoFirstAuthored: true,
     year: 2026,
-    journal: "OSF Preprints",
+    journal: "Forthcoming at Digital Journalism",
     doi: "https://doi.org/10.31219/osf.io/3bwz6",
     award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
@@ -170,10 +175,48 @@ export const preprints: Publication[] = [
     ]
   },
   {
+    title: "Multi-Platform Referrers of Misinformation: A Comparative Ablation Study of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
+    authors: "Dahlke, R., Moore, R., Adib-Azpeitia, D., Ugander, J., & Hancock, J.",
+    year: 2026,
+    journal: "Conditionally Accepted at Political Communication"
+  },
+  {
+    title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US election",
+    authors: "Dahlke*, R., Moore*, R. C., & Hancock, J. T.",
+    isCoFirstAuthored: true,
+    year: 2026,
+    journal: "Revise & Resubmit at Nature Communications",
+    doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
+  },
+  {
+    title: "Cross-Platformization: How U.S. Right-Leaning Media Curate Their Posts on Twitter and Truth Social",
+    authors: "Lukito, J., Zhang, Y., Pruden, M., Prochaska, S., Chen, B., Zhong, W., Brown, M., Dahlke, R., Suk, J., Greenfield, J., & Borah, P.",
+    year: 2026,
+    journal: "Revise & Resubmit at New Media and Society"
+  },
+  {
+    title: "Do Politicians' Strategic Facial Expressions Drive Resonant Moments on Social Media? Computational Analysis of the 2024 U.S. Presidential Debate Using Multimodal Large Language Models",
+    authors: "Kwon, H., Jiang, X., & Dahlke, R.",
+    year: 2026,
+    journal: "Revise & Resubmit at International Journal of Communication"
+  },
+  {
+    title: "Electoral Prediction Markets: A Quantitative Description of Online Political Betting Markets",
+    authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
+    year: 2026,
+    journal: "Under Review"
+  },
+  {
+    title: "Replacing Smartphones With Minimal Mobile Phones Improves College Students' Trust in News but Not News-Finds-Me Perceptions",
+    authors: "Dahlke, R., Lee, A. Y., Stevic, A., Walker-Keleher, G., Chen, C. Q.-A., Charity, E., & Hancock, J. T.",
+    year: 2026,
+    journal: "Under Review"
+  },
+  {
     title: "The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
-    journal: "OSF Preprints",
+    journal: "Under Review",
     doi: "https://osf.io/6cpv8/"
   },
   {
