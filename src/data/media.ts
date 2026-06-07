@@ -9,6 +9,13 @@ export type MediaItem = {
 export const media: MediaItem[] = [
   // Coverage of "Going light: The effects of minimal mobile phone adoption on young adults' well-being depend on motivation"
   {
+    outlet: "CNBC",
+    title: "We traded our smartphones for flip phones for 4 days—and learned that ditching modern technology is harder than it sounds",
+    url: "https://www.cnbc.com/2026/05/16/we-switched-to-flip-phones-for-4-days-as-a-smartphone-detox.html",
+    date: "2026-05-16",
+    topic: "Smartphones & Well-being"
+  },
+  {
     outlet: "The New York Times",
     title: "Is There Life After Smartphones?",
     url: "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html",

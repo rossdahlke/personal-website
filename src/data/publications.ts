@@ -24,6 +24,34 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1080/1369118X.2026.2642851"
   },
   {
+    title: "Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting",
+    authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
+    year: 2026,
+    journal: "Journal of Quantitative Description: Digital Media",
+    volume: "6",
+    doi: "https://doi.org/10.51685/jqd.2026.011"
+  },
+  {
+    title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
+    authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J. T.",
+    isCoFirstAuthored: true,
+    year: 2026,
+    journal: "Digital Journalism",
+    pages: "1-23",
+    doi: "https://doi.org/10.1080/21670811.2026.2669525",
+    award: "Top Student Paper, ICA Political Communication Division, 2024",
+    mediaCoverage: [
+      {
+        outlet: "Northwestern Local News Initiative",
+        url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/"
+      },
+      {
+        outlet: "The Boston Globe",
+        url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
+      }
+    ]
+  },
+  {
     title: "Targeted digital voter suppression efforts likely decrease voter turnout",
     authors: "Kim, Y. M., Dahlke, R., Song, H., & Heinrich, R.",
     year: 2026,
@@ -38,10 +66,15 @@ export const publications: Publication[] = [
     year: 2026,
     journal: "Proceedings of the CHI Conference on Human Factors in Computing Systems",
     doi: "https://doi.org/10.1145/3772318.3791723",
+    award: "Best Paper Honorable Mention (top ~5% of submissions), ACM CHI 2026",
     mediaCoverage: [
       {
         outlet: "The New York Times",
         url: "https://www.nytimes.com/interactive/2026/03/31/magazine/quit-smartphone-addiction-social-media.html"
+      },
+      {
+        outlet: "CNBC",
+        url: "https://www.cnbc.com/2026/05/16/we-switched-to-flip-phones-for-4-days-as-a-smartphone-detox.html"
       }
     ]
   },
@@ -155,25 +188,6 @@ export const publications: Publication[] = [
 ]
 
 export const preprints: Publication[] = [
-  {
-    title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
-    authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J.",
-    isCoFirstAuthored: true,
-    year: 2026,
-    journal: "OSF Preprints",
-    doi: "https://doi.org/10.31219/osf.io/3bwz6",
-    award: "Top Student Paper, ICA Political Communication Division, 2024",
-    mediaCoverage: [
-      {
-        outlet: "Northwestern Local News Initiative",
-        url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/"
-      },
-      {
-        outlet: "The Boston Globe",
-        url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
-      }
-    ]
-  },
   {
     title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US election",
     authors: "Dahlke*, R., Moore*, R. C., & Hancock, J. T.",
