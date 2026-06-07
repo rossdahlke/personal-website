@@ -64,7 +64,7 @@ export const media: MediaItem[] = [
     outlet: "World Economic Forum",
     title: "Billions at the ballot box, and a possible lasting mark on democracy",
     url: "https://www.weforum.org/stories/2024/01/billions-at-the-ballot-box-and-a-possible-lasting-mark-on-democracy/",
-    date: "2024-01-16",
+    date: "2024-01-19",
     topic: "Misinformation & Elections"
   },
   {
