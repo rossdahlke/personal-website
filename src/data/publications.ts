@@ -24,14 +24,6 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1080/1369118X.2026.2642851"
   },
   {
-    title: "Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting",
-    authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
-    year: 2026,
-    journal: "Journal of Quantitative Description: Digital Media",
-    volume: "6",
-    doi: "https://doi.org/10.51685/jqd.2026.011"
-  },
-  {
     title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J. T.",
     isCoFirstAuthored: true,
@@ -50,6 +42,14 @@ export const publications: Publication[] = [
         url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
       }
     ]
+  },
+  {
+    title: "Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting",
+    authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
+    year: 2026,
+    journal: "Journal of Quantitative Description: Digital Media",
+    volume: "6",
+    doi: "https://doi.org/10.51685/jqd.2026.011"
   },
   {
     title: "Targeted digital voter suppression efforts likely decrease voter turnout",
@@ -176,7 +176,7 @@ export const publications: Publication[] = [
         url: "https://www.weforum.org/stories/2024/01/billions-at-the-ballot-box-and-a-possible-lasting-mark-on-democracy/"
       },
       {
-        outlet: "Star Tribune",
+        outlet: "Minnesota Star Tribune",
         url: "https://www.startribune.com/keep-up-the-fight-against-misinformation/600268148"
       },
       {

@@ -4,7 +4,8 @@ export const metadata = {
 }
 
 export default function Teaching() {
-  const currentSemester = "Spring 2026"
+  // No course is currently in session (Spring 2026 has ended); leave empty so no "Current" badge shows
+  const currentSemester = ""
 
   const courses = [
     {

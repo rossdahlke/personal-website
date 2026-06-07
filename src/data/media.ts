@@ -75,7 +75,7 @@ export const media: MediaItem[] = [
     topic: "Misinformation & Elections"
   },
   {
-    outlet: "Star Tribune",
+    outlet: "Minnesota Star Tribune",
     title: "Keep up the fight against misinformation",
     url: "https://www.startribune.com/keep-up-the-fight-against-misinformation/600268148",
     date: "2023-04-20",
