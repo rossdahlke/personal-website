@@ -16,6 +16,13 @@ export type Publication = {
 
 export const publications: Publication[] = [
   {
+    title: "Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok",
+    authors: "Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., & Hancock, J. T.",
+    year: 2026,
+    journal: "Political Communication",
+    doi: "https://doi.org/10.1080/10584609.2026.2679492"
+  },
+  {
     title: "Style and substance on The Alex Jones Show predict InfoWars sales: a multi-modal analysis of a media empire",
     authors: "Dahlke, R., Yang, Y., Lukito, J., Greenfield, J., Chen, B., Brown, M. A., & Lewis, R.",
     year: 2026,
