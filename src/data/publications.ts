@@ -23,7 +23,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1080/10584609.2026.2679492"
   },
   {
-    title: "Style and substance on The Alex Jones Show predict InfoWars sales: a multi-modal analysis of a media empire",
+    title: "Style and substance on The Alex Jones Show predict InfoWars sales: A multi-modal analysis of a media empire",
     authors: "Dahlke, R., Yang, Y., Lukito, J., Greenfield, J., Chen, B., Brown, M. A., & Lewis, R.",
     year: 2026,
     journal: "Information, Communication & Society",
@@ -31,7 +31,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1080/1369118X.2026.2642851"
   },
   {
-    title: "The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why?",
+    title: "The consumption of pink slime journalism: Who, what, when, where, and why?",
     authors: "Dahlke*, R., Moore*, R. C., Bengani, P., & Hancock, J. T.",
     isCoFirstAuthored: true,
     year: 2026,
@@ -51,7 +51,7 @@ export const publications: Publication[] = [
     ]
   },
   {
-    title: "Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting",
+    title: "Electoral predictions on Polymarket: A quantitative description of trading, commenting, and reacting",
     authors: "Dahlke, R., Mine, N., Zhao, H., Huang, Y., & Shah, D.",
     year: 2026,
     journal: "Journal of Quantitative Description: Digital Media",
@@ -86,7 +86,7 @@ export const publications: Publication[] = [
     ]
   },
   {
-    title: "Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption",
+    title: "Contextualizing misinformation: A user-centric approach to linguistic and topical patterns in news consumption",
     authors: "Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., & Hancock, J. T.",
     isCoFirstAuthored: true,
     year: 2025,
@@ -96,7 +96,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1145/3757571"
   },
   {
-    title: "Untrustworthy Website Exposure and Election Beliefs: Selective Exposure and Ideological Asymmetry",
+    title: "Untrustworthy website exposure and election beliefs: Selective exposure and ideological asymmetry",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
     journal: "Journal of Online Trust and Safety",
@@ -104,7 +104,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.54501/jots.v3i1.250"
   },
   {
-    title: "Candidates Be Posting: Multi-Platform Strategies and Partisan Preferences in the 2022 US Midterm Elections",
+    title: "Candidates be posting: Multi-platform strategies and partisan preferences in the 2022 US midterm elections",
     authors: "Lukito, J., Macdonald, M., Chen, B., Brown, M. A., Prochaska, S., Yang, Y., Greenfield, J., Suk, J., Zhong, W., Dahlke, R., & Borah, P.",
     year: 2025,
     journal: "Social Media + Society",
@@ -112,7 +112,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1177/20563051251337541"
   },
   {
-    title: "Quantifying the Systematic Bias in the Accessibility and Inaccessibility of Web Scraping Content from URL-Logged Web-Browsing Digital Trace Data",
+    title: "Quantifying the systematic bias in the accessibility and inaccessibility of web scraping content from URL-logged web-browsing digital trace data",
     authors: "Dahlke, R., Kumar, D., Durumeric, Z., & Hancock, J. T.",
     year: 2025,
     journal: "Social Science Computer Review",
@@ -130,7 +130,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1073/pnas.2401239121"
   },
   {
-    title: "The Private Life of QAnon: A Mixed Methods Investigation of Americans' Exposure to QAnon Content on the Web",
+    title: "The private life of QAnon: A mixed methods investigation of Americans' exposure to QAnon content on the web",
     authors: "Moore, R. C., Dahlke, R., Forberg, P. L., & Hancock, J. T.",
     isCoFirstAuthored: true,
     year: 2024,
@@ -140,7 +140,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1145/3687057"
   },
   {
-    title: "Surviving or thriving political defeat on social media: a temporal analysis of how electoral loss exacerbates the gender gap in political expression",
+    title: "Surviving or thriving political defeat on social media: A temporal analysis of how electoral loss exacerbates the gender gap in political expression",
     authors: "Dahlke, R., & Zhang, Y.",
     year: 2024,
     journal: "Journal of Computer-Mediated Communication",
@@ -149,7 +149,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.1093/jcmc/zmad051"
   },
   {
-    title: "Battle for Inbox and Bucks: Comparing Email Fundraising Strategies of Donald Trump and Joe Biden in the 2020 US Presidential Election",
+    title: "Battle for inbox and bucks: Comparing email fundraising strategies of Donald Trump and Joe Biden in the 2020 U.S. presidential election",
     authors: "Chen, B., Borah, P., Dahlke, R., & Lukito, J.",
     year: 2024,
     journal: "Journal of Quantitative Description: Digital Media",
@@ -157,7 +157,7 @@ export const publications: Publication[] = [
     doi: "https://doi.org/10.51685/jqd.2024.012"
   },
   {
-    title: "Audio-as-Data Tools: Replicating Computational Data Processing",
+    title: "Audio-as-data tools: Replicating computational data processing",
     authors: "Lukito, J., Greenfield, J., Yang, Y., Dahlke, R., Brown, M. A., Lewis, R., & Chen, B.",
     year: 2024,
     journal: "Media and Communication",
@@ -204,7 +204,7 @@ export const preprints: Publication[] = [
     doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
   },
   {
-    title: "The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging",
+    title: "The public sphere in private spaces: Quantifying political computer-mediated communication in personal messaging",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
     journal: "OSF Preprints",
