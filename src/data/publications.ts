@@ -56,7 +56,13 @@ export const publications: Publication[] = [
     year: 2026,
     journal: "Journal of Quantitative Description: Digital Media",
     volume: "6",
-    doi: "https://doi.org/10.51685/jqd.2026.011"
+    doi: "https://doi.org/10.51685/jqd.2026.011",
+    mediaCoverage: [
+      {
+        outlet: "The Washington Post",
+        url: "https://www.washingtonpost.com/politics/2026/06/23/why-prediction-markets-election-picks-are-useful-even-when-they-seem-wrong/"
+      }
+    ]
   },
   {
     title: "Targeted digital voter suppression efforts likely decrease voter turnout",

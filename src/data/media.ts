@@ -7,6 +7,14 @@ export type MediaItem = {
 }
 
 export const media: MediaItem[] = [
+  // Coverage of "Electoral predictions on Polymarket: A quantitative description of trading, commenting, and reacting"
+  {
+    outlet: "The Washington Post",
+    title: "Why prediction markets’ election picks are useful, even when they seem wrong",
+    url: "https://www.washingtonpost.com/politics/2026/06/23/why-prediction-markets-election-picks-are-useful-even-when-they-seem-wrong/",
+    date: "2026-06-23",
+    topic: "Prediction Markets"
+  },
   // Coverage of "Going light: The effects of minimal mobile phone adoption on young adults' well-being depend on motivation"
   {
     outlet: "CNBC",
