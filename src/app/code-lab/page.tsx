@@ -102,24 +102,35 @@ export default function CodeLab() {
 
           <h3 className="text-lg font-medium mb-4">Prediction Markets</h3>
           <div className="space-y-4 mb-8">
-            <p className="text-base leading-relaxed pl-8 -indent-8">
-              Dahlke, R., Mine, N., Zhao, H., Huang, Y., &amp; Shah, D. (2026). Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting. <em>Journal of Quantitative Description: Digital Media, 6</em>. <a href="https://doi.org/10.51685/jqd.2026.011" target="_blank" rel="noopener noreferrer">https://doi.org/10.51685/jqd.2026.011</a>
-            </p>
+            <div className="space-y-1">
+              <p className="text-base leading-relaxed pl-8 -indent-8 mb-0">
+                Dahlke, R., Mine, N., Zhao, H., Huang, Y., &amp; Shah, D. (2026). Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting. <em>Journal of Quantitative Description: Digital Media, 6</em>. <a href="https://doi.org/10.51685/jqd.2026.011" target="_blank" rel="noopener noreferrer">https://doi.org/10.51685/jqd.2026.011</a>
+              </p>
+              <p className="text-sm text-[var(--muted)] pl-8 mb-0">
+              Coverage: <a href="https://www.washingtonpost.com/politics/2026/06/23/why-prediction-markets-election-picks-are-useful-even-when-they-seem-wrong/" target="_blank" rel="noopener noreferrer">The Washington Post</a> · <a href="https://www.jsonline.com/story/news/politics/elections/2026/07/21/wisconsin-voters-kalshi-polymarket/90934870007/" target="_blank" rel="noopener noreferrer">Milwaukee Journal Sentinel</a>
+              </p>
+            </div>
           </div>
 
           <h3 className="text-lg font-medium mb-4">Open Web</h3>
           <div className="space-y-4 mb-8">
-            <p className="text-base leading-relaxed pl-8 -indent-8">
-              Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., &amp; Hancock, J. T. (2026). Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok. <em>Political Communication</em>. <a href="https://doi.org/10.1080/10584609.2026.2679492" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10584609.2026.2679492</a>
+            <div className="space-y-1">
+              <p className="text-base leading-relaxed pl-8 -indent-8 mb-0">
+                Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., &amp; Hancock, J. T. (2026). Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok. <em>Political Communication</em>. <a href="https://doi.org/10.1080/10584609.2026.2679492" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10584609.2026.2679492</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke*, R., Moore*, R. C., &amp; Hancock, J. T. (2026). Exposure to (AI-Generated) Untrustworthy Websites in the 2024 US Election. <em>OSF Preprints</em>. <a href="https://doi.org/10.31234/osf.io/qtdmg_v1" target="_blank" rel="noopener noreferrer">https://doi.org/10.31234/osf.io/qtdmg_v1</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke*, R., Moore*, R. C., Bengani, P., &amp; Hancock, J. (2026). The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why? <em>Digital Journalism</em>, 1-23. <a href="https://doi.org/10.1080/21670811.2026.2669525" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/21670811.2026.2669525</a>
-            </p>
-            <p className="text-base leading-relaxed pl-8 -indent-8">
-              Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., &amp; Hancock, J. T. (2025). Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption. <em>Proceedings of the ACM on Human-Computer Interaction, 9</em>(CSCW1), 1-40. <a href="https://doi.org/10.1145/3757571" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3757571</a>
+              </p>
+              <p className="text-sm text-[var(--muted)] pl-8 mb-0">
+              Coverage: <a href="https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/" target="_blank" rel="noopener noreferrer">The Boston Globe</a> · <a href="https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/" target="_blank" rel="noopener noreferrer">Northwestern Local News Initiative</a>
+              </p>
+            </div>
+            <div className="space-y-1">
+              <p className="text-base leading-relaxed pl-8 -indent-8 mb-0">
+                Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., &amp; Hancock, J. T. (2025). Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption. <em>Proceedings of the ACM on Human-Computer Interaction, 9</em>(CSCW1), 1-40. <a href="https://doi.org/10.1145/3757571" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3757571</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke, R., Kumar, D., Durumeric, Z., &amp; Hancock, J. T. (2025). Quantifying the Systematic Bias in the Accessibility and Inaccessibility of Web Scraping Content from URL-Logged Web-Browsing Digital Trace Data. <em>Social Science Computer Review, 43</em>(5), 1071-1086. <a href="https://doi.org/10.1177/08944393231218214" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/08944393231218214</a>
@@ -132,7 +143,11 @@ export default function CodeLab() {
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Moore*, R. C., Dahlke*, R., &amp; Hancock, J. T. (2023). Exposure to Untrustworthy Websites in the 2020 US Election. <em>Nature Human Behaviour, 7</em>, 1096-1105. <a href="https://doi.org/10.1038/s41562-023-01564-2" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41562-023-01564-2</a>
-            </p>
+              </p>
+              <p className="text-sm text-[var(--muted)] pl-8 mb-0">
+              Coverage: <a href="https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html" target="_blank" rel="noopener noreferrer">The New York Times</a> · <a href="https://www.weforum.org/stories/2024/01/billions-at-the-ballot-box-and-a-possible-lasting-mark-on-democracy/" target="_blank" rel="noopener noreferrer">World Economic Forum</a> · <a href="https://www.startribune.com/keep-up-the-fight-against-misinformation/600268148" target="_blank" rel="noopener noreferrer">Minnesota Star Tribune</a> · <a href="https://www.thedailybeast.com/stanford-study-finds-less-people-clicked-on-fake-news-sites-in-2020-election/" target="_blank" rel="noopener noreferrer">The Daily Beast</a>
+              </p>
+            </div>
           </div>
 
           <h3 className="text-lg font-medium mb-4">Personal Messaging</h3>
