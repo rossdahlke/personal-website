@@ -7,6 +7,13 @@ export type MediaItem = {
 }
 
 export const media: MediaItem[] = [
+  {
+    outlet: "Milwaukee Journal Sentinel",
+    title: "Is buying into a prediction market OK if you're voting in Wisconsin?",
+    url: "https://www.jsonline.com/story/news/politics/elections/2026/07/21/wisconsin-voters-kalshi-polymarket/90934870007/",
+    date: "2026-07-21",
+    topic: "Prediction Markets"
+  },
   // Coverage of "Electoral predictions on Polymarket: A quantitative description of trading, commenting, and reacting"
   {
     outlet: "The Washington Post",

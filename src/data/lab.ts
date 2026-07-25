@@ -21,7 +21,9 @@ export type Talk = {
   speakerBio?: string
 }
 
-export const upcomingTalks: Talk[] = [
+export const upcomingTalks: Talk[] = []
+
+export const pastTalks: Talk[] = [
   {
     slug: 'debutts-media-patronage-2026',
     title: 'Media Patronage: How Authoritarian Regimes Exploit Media Competition to Shape Global Information',
@@ -35,9 +37,6 @@ export const upcomingTalks: Talk[] = [
     abstract: 'Authoritarian regimes often seek to influence media beyond their borders. We argue that the financial strain facing media organizations worldwide has created an opportunity for \u201cmedia patronage\u201d: the selective support of outlets whose coverage already slants toward the regime. Media patronage does not target individual journalists or outlets but operates at the ecosystem level, increasing pro-regime market share over time. We document the Chinese Communist Party\u2019s use of this strategy in global Chinese-language digital news, analyzing 14 million articles from 193 outlets over 25 years, and find that patronage does not change coverage but aids survival by increasing traffic and decreasing closure rates. We further show overseas patronage has domestic payoffs by diminishing the circulation of protest coverage during domestic crises. These results contribute to research on transnational authoritarian influence and media capture.',
     speakerBio: 'Matt DeButts is a PhD candidate in the Department of Communication at Stanford University who researches politics, media, and transnational information flows. His academic work has been published in Journal of Communication, Social Media+ Society, China Quarterly and EMNLP Findings, and his journalistic work has been published in Columbia Journalism Review, Vox, and ChinaFile among others. Prior to Stanford, Matt was a Beijing-based correspondent with the Los Angeles Times and contributing editor at the Economist Intelligence Unit.',
   },
-]
-
-export const pastTalks: Talk[] = [
   {
     slug: 'moore-digital-literacy-2026',
     title: 'Short Educational Videos Improve Older Adults\u2019 Digital Literacy and Information Diets at Scale',

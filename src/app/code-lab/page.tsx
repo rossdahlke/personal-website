@@ -43,7 +43,13 @@ export default function CodeLab() {
           <h2 className="text-2xl font-semibold mb-6">Overview</h2>
           <div className="space-y-4">
             <p className="text-base md:text-lg leading-relaxed">
-              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin-Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. Using large-scale behavioral data, including web browsing records and private messaging data, the lab builds observational infrastructure and computational tools for studying online information environments increasingly shaped by AI. Ongoing projects center on three data collections: a longitudinal panel of Americans&apos; web browsing and survey responses, a real-time archive of online prediction markets, and a panel study combining personal messaging data with surveys and ecological momentary assessments. The lab also supports graduate training in computational methods for communication research.
+              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin-Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. Using large-scale behavioral data, the lab builds observational infrastructure and computational tools for studying online information environments increasingly shaped by AI.
+            </p>
+            <p className="text-base md:text-lg leading-relaxed">
+              A major line of work examines online prediction markets as a new form of political information. Platforms like Polymarket and Kalshi now sit alongside polls and forecasts as public signals about elections, and the lab maintains a real-time archive of prediction market trading, commenting, and reacting to study who trades, what moves prices, and how market odds circulate through news coverage and shape what people believe about a race. Recent work describes the small set of sophisticated traders behind most political trading volume and asks whether traders buy the candidate they expect to win or the candidate they want to win.
+            </p>
+            <p className="text-base md:text-lg leading-relaxed">
+              Alongside the prediction markets archive, the lab runs two other data collections: a longitudinal panel of Americans&apos; web browsing paired with survey responses, and a panel study combining personal messaging data with surveys and ecological momentary assessments. The lab also supports graduate training in computational methods for communication research.
             </p>
           </div>
         </section>
@@ -94,13 +100,23 @@ export default function CodeLab() {
           <h2 className="text-2xl font-semibold mb-2">Selected Publications</h2>
           <p className="text-sm text-[var(--muted)] mb-8">* indicates equal authorship</p>
 
+          <h3 className="text-lg font-medium mb-4">Prediction Markets</h3>
+          <div className="space-y-4 mb-8">
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke, R., Mine, N., Zhao, H., Huang, Y., &amp; Shah, D. (2026). Electoral Predictions on Polymarket: A Quantitative Description of Trading, Commenting, and Reacting. <em>Journal of Quantitative Description: Digital Media, 6</em>. <a href="https://doi.org/10.51685/jqd.2026.011" target="_blank" rel="noopener noreferrer">https://doi.org/10.51685/jqd.2026.011</a>
+            </p>
+          </div>
+
           <h3 className="text-lg font-medium mb-4">Open Web</h3>
           <div className="space-y-4 mb-8">
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., &amp; Hancock, J. T. (2026). Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok. <em>Political Communication</em>. <a href="https://doi.org/10.1080/10584609.2026.2679492" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10584609.2026.2679492</a>
+            </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke*, R., Moore*, R. C., &amp; Hancock, J. T. (2026). Exposure to (AI-Generated) Untrustworthy Websites in the 2024 US Election. <em>OSF Preprints</em>. <a href="https://doi.org/10.31234/osf.io/qtdmg_v1" target="_blank" rel="noopener noreferrer">https://doi.org/10.31234/osf.io/qtdmg_v1</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
-              Dahlke*, R., Moore*, R. C., Bengani, P., &amp; Hancock, J. (2026). The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why? Forthcoming at <em>Digital Journalism</em>. <a href="https://doi.org/10.31219/osf.io/3bwz6" target="_blank" rel="noopener noreferrer">https://doi.org/10.31219/osf.io/3bwz6</a>
+              Dahlke*, R., Moore*, R. C., Bengani, P., &amp; Hancock, J. (2026). The Consumption of Pink Slime Journalism: Who, What, When, Where, and Why? <em>Digital Journalism</em>, 1-23. <a href="https://doi.org/10.1080/21670811.2026.2669525" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/21670811.2026.2669525</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., &amp; Hancock, J. T. (2025). Contextualizing Misinformation: A User-Centric Approach to Linguistic and Topical Patterns in News Consumption. <em>Proceedings of the ACM on Human-Computer Interaction, 9</em>(CSCW1), 1-40. <a href="https://doi.org/10.1145/3757571" target="_blank" rel="noopener noreferrer">https://doi.org/10.1145/3757571</a>
