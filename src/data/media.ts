@@ -8,6 +8,20 @@ export type MediaItem = {
 
 export const media: MediaItem[] = [
   {
+    outlet: "The Cap Times",
+    title: "How much screen time is OK for kids? Madison experts vary.",
+    url: "https://captimes.com/news/education/how-much-screen-time-is-ok-for-kids-3-uw-madison-experts-weigh-in/article_c67dc82c-8702-406f-9acb-3dc01c976802.html",
+    date: "2026-08-18",
+    topic: "Smartphones & Well-being"
+  },
+  {
+    outlet: "Wisconsin Public Radio",
+    title: "Wisconsin Elections Commission warns against ballot betting",
+    url: "https://www.wpr.org/shows/wisconsin-today-2/betting-on-elections-milwaukee-hurling-club",
+    date: "2026-07-27",
+    topic: "Prediction Markets"
+  },
+  {
     outlet: "Milwaukee Journal Sentinel",
     title: "Is buying into a prediction market OK if you're voting in Wisconsin?",
     url: "https://www.jsonline.com/story/news/politics/elections/2026/07/21/wisconsin-voters-kalshi-polymarket/90934870007/",
