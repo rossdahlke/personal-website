@@ -15,6 +15,13 @@ export const media: MediaItem[] = [
     topic: "Smartphones & Well-being"
   },
   {
+    outlet: "Tampa Bay Times",
+    title: "Amid insider trading allegations, how do political betting markets work?",
+    url: "https://www.tampabay.com/news/florida-politics/2026/07/28/prediction-markets-insider-trading-white-house-anna-paulina-luna/",
+    date: "2026-07-28",
+    topic: "Prediction Markets"
+  },
+  {
     outlet: "Wisconsin Public Radio",
     title: "Wisconsin Elections Commission warns against ballot betting",
     url: "https://www.wpr.org/shows/wisconsin-today-2/betting-on-elections-milwaukee-hurling-club",
