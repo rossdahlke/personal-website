@@ -17,10 +17,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   metadataBase: new URL('https://rossdalke.com'),
   title: 'Ross Dahlke',
-  description: 'Assistant Professor at UW-Madison School of Journalism and Mass Communication',
+  description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
   openGraph: {
     title: 'Ross Dahlke',
-    description: 'Assistant Professor at UW-Madison School of Journalism and Mass Communication',
+    description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
     url: 'https://rossdalke.com',
     type: 'website',
     images: [
@@ -28,14 +28,14 @@ export const metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Ross Dahlke - Assistant Professor at UW-Madison',
+        alt: 'Ross Dahlke - Assistant Professor at UW–Madison',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Ross Dahlke',
-    description: 'Assistant Professor at UW-Madison School of Journalism and Mass Communication',
+    description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
     images: ['/og-image.png'],
   },
 }

@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'CV | Ross Dahlke',
-  description: 'Curriculum vitae for Ross Dahlke, Assistant Professor at UW-Madison.',
+  description: 'Curriculum vitae for Ross Dahlke, Assistant Professor at UW–Madison.',
 }
 
 export default function CVPage() {

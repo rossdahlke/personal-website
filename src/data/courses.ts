@@ -49,8 +49,8 @@ export const courseData: Record<string, CourseData> = {
     code: "J677",
     title: "Concepts and Tools for Data Analysis and Visualization",
     semester: "Spring 2025",
-    university: "University of Wisconsin-Madison",
-    universityFull: "University of Wisconsin-Madison School of Journalism and Mass Communication",
+    university: "University of Wisconsin–Madison",
+    universityFull: "University of Wisconsin–Madison School of Journalism and Mass Communication",
     description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
     logistics: {
       schedule: "Monday & Wednesday 2:30\u20133:45 PM",
@@ -510,8 +510,8 @@ export const courseData: Record<string, CourseData> = {
     code: "J677",
     title: "Concepts and Tools for Data Analysis and Visualization",
     semester: "Fall 2025",
-    university: "University of Wisconsin-Madison",
-    universityFull: "University of Wisconsin-Madison School of Journalism and Mass Communication",
+    university: "University of Wisconsin–Madison",
+    universityFull: "University of Wisconsin–Madison School of Journalism and Mass Communication",
     description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
     logistics: {
       schedule: "Tuesday & Thursday 1:00\u20132:15 PM",
@@ -978,8 +978,8 @@ export const courseData: Record<string, CourseData> = {
     code: "J677",
     title: "Concepts and Tools for Data Analysis and Visualization",
     semester: "Spring 2026",
-    university: "University of Wisconsin-Madison",
-    universityFull: "University of Wisconsin-Madison School of Journalism and Mass Communication",
+    university: "University of Wisconsin–Madison",
+    universityFull: "University of Wisconsin–Madison School of Journalism and Mass Communication",
     description: "Like no other time, our world is recorded in digital formats through social networks, online news platforms, mobile devices, and more. This constant flow of information has given rise to new possibilities for understanding social phenomena, communicating insights, and driving data-informed decisions in fields like journalism, strategic communication, and beyond.",
     logistics: {
       schedule: "Tuesday & Thursday 1:00\u20132:15 PM",
@@ -1440,8 +1440,8 @@ export const courseData: Record<string, CourseData> = {
     code: "J818",
     title: "Computational Approaches to Communication Research",
     semester: "Fall 2025",
-    university: "University of Wisconsin-Madison",
-    universityFull: "University of Wisconsin-Madison School of Journalism and Mass Communication",
+    university: "University of Wisconsin–Madison",
+    universityFull: "University of Wisconsin–Madison School of Journalism and Mass Communication",
     description: "This graduate seminar provides students with a toolkit for causal/statistical inference with observational data. Moving beyond simple correlations and basic regression, the course explores methods designed to mitigate bias and strengthen estimates from non-experimental data, including Interrupted Time Series, Synthetic Controls, Matching, Weighting, and Machine Learning approaches like Double Machine Learning and Causal Forests.",
     logistics: {
       schedule: "Tuesdays 9:30 AM\u201312:00 PM",

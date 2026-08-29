@@ -1,7 +1,9 @@
 export type LabMember = {
   name: string
-  role: 'Director' | 'PhD Student' | 'Masters Student' | 'Undergraduate RA'
+  role: string
+  affiliation?: string
   photo?: string
+  photoPosition?: string
   website?: string
   email?: string
   bio?: string
@@ -51,12 +53,35 @@ export const pastTalks: Talk[] = [
   },
 ]
 
-export const labMembers: LabMember[] = [
+const SJMC = 'University of Wisconsin\u2013\u2060Madison School of Journalism and Mass Communication'
+
+export const director: LabMember = {
+  name: 'Ross Dahlke',
+  role: 'Director, CODE Lab',
+  affiliation: `Assistant Professor, ${SJMC}`,
+  photo: '/images/_MG_2663.jpeg',
+  photoPosition: '50% 25%',
+  website: '/',
+  email: 'ross.dahlke@wisc.edu',
+}
+
+export const graduateStudents: LabMember[] = [
   {
-    name: 'Ross Dahlke',
-    role: 'Director',
-    photo: '/images/_MG_2663.jpeg',
-    website: '/',
-    email: 'ross.dahlke@wisc.edu',
+    name: 'Yingqi Huang',
+    role: 'Research Master\u2019s Student',
+    affiliation: SJMC,
+    photo: '/images/huang-yingqi.jpg',
+  },
+  {
+    name: 'Yanshu Wang',
+    role: 'PhD Student',
+    affiliation: SJMC,
+    photo: '/images/wang-yanshu.jpg',
+  },
+  {
+    name: 'Haotian Zhao',
+    role: 'PhD Student',
+    affiliation: SJMC,
+    photo: '/images/zhao-haotian.jpg',
   },
 ]

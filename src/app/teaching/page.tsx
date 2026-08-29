@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Teaching | Ross Dahlke',
-  description: 'Courses at the University of Wisconsin-Madison.',
+  description: 'Courses at the University of Wisconsin–Madison.',
 }
 
 export default function Teaching() {

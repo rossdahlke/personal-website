@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { labMembers, upcomingTalks, pastTalks } from '@/data/lab'
+import { director, graduateStudents, upcomingTalks, pastTalks } from '@/data/lab'
+import type { LabMember } from '@/data/lab'
 
 const anchorSections = [
   { id: 'overview', label: 'Overview' },
@@ -43,7 +44,7 @@ export default function CodeLab() {
           <h2 className="text-2xl font-semibold mb-6">Overview</h2>
           <div className="space-y-4">
             <p className="text-base md:text-lg leading-relaxed">
-              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin-Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. Using large-scale behavioral data, the lab builds observational infrastructure and computational tools for studying online information environments increasingly shaped by AI.
+              The CODE Lab (Computational Observation of Digital Exposure) at the University of Wisconsin–Madison studies what information people encounter in digital environments and how that exposure shapes attitudes and behavior. Using large-scale behavioral data, the lab builds observational infrastructure and computational tools for studying online information environments increasingly shaped by AI.
             </p>
             <p className="text-base md:text-lg leading-relaxed">
               A major line of work examines online prediction markets as a new form of political information. Platforms like Polymarket and Kalshi now sit alongside polls and forecasts as public signals about elections, and the lab maintains a real-time archive of prediction market trading, commenting, and reacting to study who trades, what moves prices, and how market odds circulate through news coverage and shape what people believe about a race. Recent work describes the small set of sophisticated traders behind most political trading volume and asks whether traders buy the candidate they expect to win or the candidate they want to win.
@@ -57,40 +58,15 @@ export default function CodeLab() {
         {/* People */}
         <section id="people" className="scroll-mt-24 mb-16">
           <h2 className="text-2xl font-semibold mb-8">People</h2>
-          <div className="space-y-6">
-            {labMembers.map((member) => (
-              <div key={member.name} className="card flex flex-col sm:flex-row gap-6">
-                {member.photo && (
-                  <div className="relative w-28 h-28 rounded-2xl overflow-hidden flex-shrink-0">
-                    <Image
-                      src={member.photo}
-                      alt={member.name}
-                      fill
-                      className="object-cover" style={{ objectPosition: '50% 25%' }}
-                    />
-                  </div>
-                )}
-                <div className="space-y-1">
-                  <h3 className="text-xl font-semibold mb-1">
-                    {member.website ? (
-                      <Link href={member.website} className="hover:text-[var(--link)] transition-colors duration-300">
-                        {member.name}
-                      </Link>
-                    ) : (
-                      member.name
-                    )}
-                  </h3>
-                  <p className="text-[var(--muted)] text-base mb-0">{member.role}</p>
-                  {member.email && (
-                    <p className="text-sm mb-0">
-                      <a href={`mailto:${member.email}`}>{member.email}</a>
-                    </p>
-                  )}
-                  {member.bio && (
-                    <p className="text-base text-[var(--muted)] leading-relaxed mt-2 mb-0">{member.bio}</p>
-                  )}
-                </div>
-              </div>
+
+          <div className="sm:max-w-[calc(50%-0.75rem)] sm:mx-auto mb-12">
+            <MemberCard member={director} />
+          </div>
+
+          <h3 className="text-lg font-medium mb-6">Graduate Students</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {graduateStudents.map((member) => (
+              <MemberCard key={member.name} member={member} />
             ))}
           </div>
         </section>
@@ -244,14 +220,54 @@ export default function CodeLab() {
           <h2 className="text-2xl font-semibold mb-6">Join</h2>
           <div className="card space-y-4">
             <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
-              If you are a current UW-Madison graduate student interested in the CODE Lab, please email <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a> for more details.
+              If you are a current UW–Madison graduate student interested in the CODE Lab, please email <a href="mailto:ross.dahlke@wisc.edu">ross.dahlke@wisc.edu</a> for more details.
             </p>
             <p className="text-base md:text-lg leading-relaxed mb-0 text-[var(--muted)]">
-              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW-Madison SJMC graduate admissions</a>. The SJMC admits students to the program, not to individual faculty labs. If you are interested in working with me, please mention me in your application.
+              Prospective MA and PhD students can apply through <a href="https://sjmc.wisc.edu/admissions/graduate-admissions/" target="_blank" rel="noopener noreferrer">UW–Madison SJMC graduate admissions</a>. The SJMC admits students to the program, not to individual faculty labs. If you are interested in working with me, please mention me in your application.
             </p>
           </div>
         </section>
       </div>
+    </div>
+  )
+}
+
+function MemberCard({ member }: { member: LabMember }) {
+  return (
+    <div className="card h-full flex flex-col text-center">
+      {member.photo && (
+        <div className="relative w-full aspect-square rounded-xl overflow-hidden mb-5">
+          <Image
+            src={member.photo}
+            alt={member.name}
+            fill
+            sizes="(max-width: 640px) 100vw, 360px"
+            className="object-cover"
+            style={{ objectPosition: member.photoPosition ?? '50% 50%' }}
+          />
+        </div>
+      )}
+      <h3 className="text-lg font-semibold mb-1">
+        {member.website ? (
+          <Link href={member.website} className="hover:text-[var(--link)] transition-colors duration-300">
+            {member.name}
+          </Link>
+        ) : (
+          member.name
+        )}
+      </h3>
+      <p className="text-[var(--muted)] text-sm leading-relaxed mb-0">{member.role}</p>
+      {member.affiliation && (
+        <p className="text-[var(--muted)] text-sm leading-relaxed mb-0">{member.affiliation}</p>
+      )}
+      {member.email && (
+        <p className="text-sm mt-2 mb-0">
+          <a href={`mailto:${member.email}`}>{member.email}</a>
+        </p>
+      )}
+      {member.bio && (
+        <p className="text-sm text-[var(--muted)] leading-relaxed mt-3 mb-0">{member.bio}</p>
+      )}
     </div>
   )
 }

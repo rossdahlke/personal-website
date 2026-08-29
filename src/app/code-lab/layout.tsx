@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'CODE Lab | Ross Dahlke',
-  description: 'The Computational Observation of Digital Exposure (CODE) Lab at UW-Madison.',
+  description: 'The Computational Observation of Digital Exposure (CODE) Lab at UW–Madison.',
 }
 
 import Image from 'next/image'
