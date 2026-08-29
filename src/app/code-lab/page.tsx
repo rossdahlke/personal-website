@@ -237,12 +237,12 @@ function MemberCard({ member }: { member: LabMember }) {
     <div className="card !p-5 h-full flex flex-col items-center text-center">
       <div className="w-fit max-w-full mx-auto flex flex-col items-center">
       {member.photo && (
-        <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-5">
+        <div className="relative w-60 max-w-full aspect-square rounded-2xl overflow-hidden mb-5">
           <Image
             src={member.photo}
             alt={member.name}
             fill
-            sizes="(max-width: 832px) 100vw, 308px"
+            sizes="240px"
             className="object-cover"
             style={{ objectPosition: member.photoPosition ?? '50% 50%' }}
           />
