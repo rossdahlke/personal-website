@@ -59,12 +59,12 @@ export default function CodeLab() {
         <section id="people" className="scroll-mt-24 mb-16">
           <h2 className="text-2xl font-semibold mb-8">People</h2>
 
-          <div className="sm:max-w-[calc(50%-0.75rem)] sm:mx-auto mb-12">
+          <div className="min-[832px]:max-w-[calc(50%-0.75rem)] mx-auto mb-12">
             <MemberCard member={director} />
           </div>
 
           <h3 className="text-lg font-medium mb-6">Graduate Students</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 min-[832px]:grid-cols-2 gap-6">
             {graduateStudents.map((member) => (
               <MemberCard key={member.name} member={member} />
             ))}
@@ -234,20 +234,21 @@ export default function CodeLab() {
 
 function MemberCard({ member }: { member: LabMember }) {
   return (
-    <div className="card h-full flex flex-col text-center">
+    <div className="card !p-5 h-full flex flex-col items-center text-center">
+      <div className="w-fit max-w-full mx-auto flex flex-col items-center">
       {member.photo && (
-        <div className="relative w-full aspect-square rounded-xl overflow-hidden mb-5">
+        <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-5">
           <Image
             src={member.photo}
             alt={member.name}
             fill
-            sizes="(max-width: 640px) 100vw, 360px"
+            sizes="(max-width: 832px) 100vw, 308px"
             className="object-cover"
             style={{ objectPosition: member.photoPosition ?? '50% 50%' }}
           />
         </div>
       )}
-      <h3 className="text-lg font-semibold mb-1">
+      <h3 className="text-lg font-semibold mb-2">
         {member.website ? (
           <Link href={member.website} className="hover:text-[var(--link)] transition-colors duration-300">
             {member.name}
@@ -256,10 +257,11 @@ function MemberCard({ member }: { member: LabMember }) {
           member.name
         )}
       </h3>
-      <p className="text-[var(--muted)] text-sm leading-relaxed mb-0">{member.role}</p>
-      {member.affiliation && (
-        <p className="text-[var(--muted)] text-sm leading-relaxed mb-0">{member.affiliation}</p>
-      )}
+      {member.details.map((line) => (
+        <p key={line} className="text-[var(--muted)] text-sm leading-relaxed mb-0">
+          {line}
+        </p>
+      ))}
       {member.email && (
         <p className="text-sm mt-2 mb-0">
           <a href={`mailto:${member.email}`}>{member.email}</a>
@@ -268,6 +270,7 @@ function MemberCard({ member }: { member: LabMember }) {
       {member.bio && (
         <p className="text-sm text-[var(--muted)] leading-relaxed mt-3 mb-0">{member.bio}</p>
       )}
+      </div>
     </div>
   )
 }

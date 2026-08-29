@@ -1,7 +1,6 @@
 export type LabMember = {
   name: string
-  role: string
-  affiliation?: string
+  details: string[]
   photo?: string
   photoPosition?: string
   website?: string
@@ -53,12 +52,14 @@ export const pastTalks: Talk[] = [
   },
 ]
 
-const SJMC = 'University of Wisconsin\u2013\u2060Madison School of Journalism and Mass Communication'
+const AFFILIATION = [
+  'School of Journalism and Mass Communication,',
+  'University of Wisconsin\u2013\u2060Madison',
+]
 
 export const director: LabMember = {
   name: 'Ross Dahlke',
-  role: 'Director, CODE Lab',
-  affiliation: `Assistant Professor, ${SJMC}`,
+  details: ['Director, CODE Lab', 'Assistant Professor,', ...AFFILIATION],
   photo: '/images/_MG_2663.jpeg',
   photoPosition: '50% 25%',
   website: '/',
@@ -67,21 +68,18 @@ export const director: LabMember = {
 
 export const graduateStudents: LabMember[] = [
   {
-    name: 'Yingqi Huang',
-    role: 'Research Master\u2019s Student',
-    affiliation: SJMC,
+    name: 'Yingqi (Vicky) Huang',
+    details: ['Research MA Student,', ...AFFILIATION],
     photo: '/images/huang-yingqi.jpg',
   },
   {
-    name: 'Yanshu Wang',
-    role: 'PhD Student',
-    affiliation: SJMC,
+    name: 'Yanshu (Sybil) Wang',
+    details: ['PhD Student,', ...AFFILIATION],
     photo: '/images/wang-yanshu.jpg',
   },
   {
-    name: 'Haotian Zhao',
-    role: 'PhD Student',
-    affiliation: SJMC,
+    name: 'Haotian (Barry) Zhao',
+    details: ['PhD Student,', ...AFFILIATION],
     photo: '/images/zhao-haotian.jpg',
   },
 ]
