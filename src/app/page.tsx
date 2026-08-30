@@ -78,6 +78,8 @@ export default function Home() {
                 School of Journalism and Mass Communication
                 <br />
                 Affiliate, Elections Research Center
+                <br />
+                Affiliate, Data Science Institute
               </p>
             </div>
           </div>
@@ -91,7 +93,7 @@ export default function Home() {
             
             <div className="card">
               <p className="text-base md:text-lg leading-relaxed mb-0">
-                Prior to my PhD, I was a data scientist at a digital marketing and measurement firm where I developed and deployed Bayesian machine learning models, conducted large-scale A/B testing, and worked with client teams to optimize digital marketing budgets for Fortune 500 companies such as Coach Bags, Calvin Klein, and Facebook Marketplace. I have also consulted on over 80 political campaigns to implement cutting-edge data analytics techniques. While in high school, I started a cheese distribution business that grossed over $5M in sales. I did my undergraduate education at the University of Wisconsin–Madison where I graduated with Comprehensive Honors and won the Theodore Herfurth Award for Initiative and Efficiency, which is awarded to the top graduating male student at UW.
+                Prior to my PhD, I was a data scientist at a digital marketing and measurement firm where I developed and deployed Bayesian machine learning models, conducted large-scale A/B testing, and worked with client teams to optimize digital marketing budgets for Fortune 500 companies such as Coach Bags, Calvin Klein, and Facebook Marketplace. I have also consulted on over 100 political campaigns to implement cutting-edge data analytics techniques. While in high school, I started a cheese distribution business that grossed over $5M in sales. I did my undergraduate education at the University of Wisconsin–Madison where I graduated with Comprehensive Honors and won the Theodore Herfurth Award for Initiative and Efficiency, which is awarded to the top graduating male student at UW.
               </p>
             </div>
           </div>
