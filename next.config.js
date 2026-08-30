@@ -21,6 +21,19 @@ const nextConfig = {
     });
     return config;
   },
+  // Printed materials (white paper covers, slides) cite the shorter
+  // rossdahlke.com/codelab, so send it to the real /code-lab route.
+  // The static PDFs under public/codelab/ are files, not routes, and are
+  // unaffected by this exact-path redirect.
+  async redirects() {
+    return [
+      {
+        source: '/codelab',
+        destination: '/code-lab',
+        permanent: true,
+      },
+    ]
+  },
   // Add public directory as a static asset directory
   async rewrites() {
     return [
