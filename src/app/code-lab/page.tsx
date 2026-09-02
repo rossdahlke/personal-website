@@ -127,9 +127,16 @@ export default function CodeLab() {
           </div>
 
           <h3 className="text-lg font-medium mb-4">Personal Messaging</h3>
-          <div className="space-y-4">
+          <div className="space-y-4 mb-8">
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke, R., &amp; Hancock, J. (2025). The Public Sphere in Private Spaces: Quantifying Political Computer-Mediated Communication in Personal Messaging. <em>OSF Preprints</em>. <a href="https://osf.io/6cpv8/" target="_blank" rel="noopener noreferrer">https://osf.io/6cpv8/</a>
+            </p>
+          </div>
+
+          <h3 className="text-lg font-medium mb-4">Social Media</h3>
+          <div className="space-y-4">
+            <p className="text-base leading-relaxed pl-8 -indent-8">
+              Kwon, H., Jiang, X., &amp; Dahlke, R. (Forthcoming). Do Politicians&apos; Strategic Facial Displays Drive Resonant Moments on Social Media? Computational Analysis of the 2024 U.S. Presidential Debate Using Multimodal Large Language Models. <em>International Journal of Communication</em>.
             </p>
           </div>
         </section>
