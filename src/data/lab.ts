@@ -68,6 +68,11 @@ export const director: LabMember = {
 
 export const graduateStudents: LabMember[] = [
   {
+    name: 'Hyerin Kwon',
+    details: ['PhD Candidate,', ...AFFILIATION],
+    photo: '/images/kwon-hyerin.jpeg',
+  },
+  {
     name: 'Yingqi (Vicky) Huang',
     details: ['Research MA Student,', ...AFFILIATION],
     photo: '/images/huang-yingqi.jpg',
