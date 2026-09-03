@@ -71,9 +71,9 @@ export default function CodeLab() {
           </div>
         </section>
 
-        {/* Selected Publications */}
+        {/* Publications and Reports */}
         <section id="publications" className="scroll-mt-24 mb-16">
-          <h2 className="text-2xl font-semibold mb-2">Selected Publications</h2>
+          <h2 className="text-2xl font-semibold mb-2">Publications and Reports</h2>
           <p className="text-sm text-[var(--muted)] mb-8">* indicates equal authorship</p>
 
           <h3 className="text-lg font-medium mb-4">Prediction Markets</h3>
@@ -84,6 +84,11 @@ export default function CodeLab() {
               </p>
               <p className="text-sm text-[var(--muted)] pl-8 mb-0">
               Coverage: <a href="https://www.washingtonpost.com/politics/2026/06/23/why-prediction-markets-election-picks-are-useful-even-when-they-seem-wrong/" target="_blank" rel="noopener noreferrer">The Washington Post</a> · <a href="https://www.jsonline.com/story/news/politics/elections/2026/07/21/wisconsin-voters-kalshi-polymarket/90934870007/" target="_blank" rel="noopener noreferrer">Milwaukee Journal Sentinel</a>
+              </p>
+            </div>
+            <div className="space-y-1">
+              <p className="text-base leading-relaxed pl-8 -indent-8">
+                Huang, Y., &amp; Dahlke, R. (2026). Who Reports Using Polymarket? A Demographic, Attitudinal, and Political Analysis. <em>CODE Lab, University of Wisconsin–Madison</em>. <a href="https://rossdahlke.com/codelab/polymarket-users-2026.pdf" target="_blank" rel="noopener noreferrer">https://rossdahlke.com/codelab/polymarket-users-2026.pdf</a>
               </p>
             </div>
           </div>
