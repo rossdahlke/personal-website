@@ -80,6 +80,8 @@ export default function Home() {
                 Affiliate, Elections Research Center
                 <br />
                 Affiliate, Data Science Institute
+                <br />
+                Affiliate, RISE-AI (Wisconsin Research, Innovation and Scholarly Excellence–Artificial Intelligence)
               </p>
             </div>
           </div>
