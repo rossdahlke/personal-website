@@ -50,7 +50,7 @@ export default function CodeLab() {
               A major line of work examines online prediction markets as a new form of political information. Platforms like Polymarket and Kalshi now sit alongside polls and forecasts as public signals about elections, and the lab maintains a real-time archive of prediction market trading, commenting, and reacting to study who trades, what moves prices, and how market odds circulate through news coverage and shape what people believe about a race. Recent work describes the small set of sophisticated traders behind most political trading volume and asks whether traders buy the candidate they expect to win or the candidate they want to win.
             </p>
             <p className="text-base md:text-lg leading-relaxed">
-              Alongside the prediction markets archive, the lab runs two other data collections: a longitudinal panel of Americans&apos; web browsing paired with survey responses, and a panel study combining personal messaging data with surveys and ecological momentary assessments. The lab also supports graduate training in computational methods for communication research.
+              Alongside the prediction markets archive, the lab runs a longitudinal panel of Americans&apos; web browsing paired with survey responses. The lab also supports graduate training in computational methods for communication research.
             </p>
           </div>
         </section>
