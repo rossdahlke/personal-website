@@ -15,13 +15,13 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata = {
-  metadataBase: new URL('https://rossdalke.com'),
+  metadataBase: new URL('https://rossdahlke.com'),
   title: 'Ross Dahlke',
   description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
   openGraph: {
     title: 'Ross Dahlke',
     description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
-    url: 'https://rossdalke.com',
+    url: 'https://rossdahlke.com',
     type: 'website',
     images: [
       {
