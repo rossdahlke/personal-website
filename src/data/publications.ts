@@ -92,6 +92,13 @@ export const publications: Publication[] = [
     ]
   },
   {
+    title: "Cross-platformization: How U.S. right-leaning media curate their posts on Twitter and Truth Social",
+    authors: "Lukito, J., Zhang, Y., Chen, B., Prochaska, S., Pruden, M. L., Yang, Y., Zhong, W., Brown, M. A., Dahlke, R., Greenfield, J., Suk, J., & Borah, P.",
+    year: 2026,
+    journal: "New Media & Society",
+    doi: "https://doi.org/10.1177/14614448261470889"
+  },
+  {
     title: "Contextualizing misinformation: A user-centric approach to linguistic and topical patterns in news consumption",
     authors: "Dahlke*, R., Tu*, F., Wang*, Y.-C., Lu, Y., Engeda, B. W., & Hancock, J. T.",
     isCoFirstAuthored: true,
