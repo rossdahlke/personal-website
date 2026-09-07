@@ -131,7 +131,8 @@ export const publications: Publication[] = [
     year: 2025,
     journal: "Social Media + Society",
     volume: "11(2)",
-    doi: "https://doi.org/10.1177/20563051251337541"
+    doi: "https://doi.org/10.1177/20563051251337541",
+    pdf: "/papers/lukito-2025-candidates.pdf"
   },
   {
     title: "Quantifying the systematic bias in the accessibility and inaccessibility of web scraping content from URL-logged web-browsing digital trace data",
@@ -171,7 +172,8 @@ export const publications: Publication[] = [
     journal: "Journal of Computer-Mediated Communication",
     volume: "29(1)",
     pages: "zmad051",
-    doi: "https://doi.org/10.1093/jcmc/zmad051"
+    doi: "https://doi.org/10.1093/jcmc/zmad051",
+    pdf: "/papers/dahlke-2024-surviving.pdf"
   },
   {
     title: "Battle for inbox and bucks: Comparing email fundraising strategies of Donald Trump and Joe Biden in the 2020 U.S. presidential election",
