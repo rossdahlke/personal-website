@@ -6,6 +6,7 @@ export type Publication = {
   volume?: string
   pages?: string
   doi?: string
+  pdf?: string
   mediaCoverage?: Array<{
     url: string
     outlet: string
@@ -20,7 +21,8 @@ export const publications: Publication[] = [
     authors: "Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., & Hancock, J. T.",
     year: 2026,
     journal: "Political Communication",
-    doi: "https://doi.org/10.1080/10584609.2026.2679492"
+    doi: "https://doi.org/10.1080/10584609.2026.2679492",
+    pdf: "/papers/dahlke-2026-referrers.pdf"
   },
   {
     title: "Style and substance on The Alex Jones Show predict InfoWars sales: A multi-modal analysis of a media empire",
@@ -28,7 +30,8 @@ export const publications: Publication[] = [
     year: 2026,
     journal: "Information, Communication & Society",
     pages: "1-20",
-    doi: "https://doi.org/10.1080/1369118X.2026.2642851"
+    doi: "https://doi.org/10.1080/1369118X.2026.2642851",
+    pdf: "/papers/dahlke-2026-alex-jones.pdf"
   },
   {
     title: "The consumption of pink slime journalism: Who, what, when, where, and why?",
@@ -38,6 +41,7 @@ export const publications: Publication[] = [
     journal: "Digital Journalism",
     pages: "1-23",
     doi: "https://doi.org/10.1080/21670811.2026.2669525",
+    pdf: "/papers/dahlke-2026-pink-slime.pdf",
     award: "Top Student Paper, ICA Political Communication Division, 2024",
     mediaCoverage: [
       {
@@ -57,6 +61,7 @@ export const publications: Publication[] = [
     journal: "Journal of Quantitative Description: Digital Media",
     volume: "6",
     doi: "https://doi.org/10.51685/jqd.2026.011",
+    pdf: "/papers/dahlke-2026-polymarket.pdf",
     mediaCoverage: [
       {
         outlet: "The Washington Post",
@@ -71,7 +76,8 @@ export const publications: Publication[] = [
     journal: "Proceedings of the National Academy of Sciences",
     volume: "123(5)",
     pages: "e2519944123",
-    doi: "https://doi.org/10.1073/pnas.2519944123"
+    doi: "https://doi.org/10.1073/pnas.2519944123",
+    pdf: "/papers/kim-2026-voter-suppression.pdf"
   },
   {
     title: "Going light: The effects of minimal mobile phone adoption on young adults' well-being depend on motivation",
@@ -79,6 +85,7 @@ export const publications: Publication[] = [
     year: 2026,
     journal: "Proceedings of the CHI Conference on Human Factors in Computing Systems",
     doi: "https://doi.org/10.1145/3772318.3791723",
+    pdf: "/papers/lee-2026-going-light.pdf",
     award: "Best Paper Honorable Mention (top ~5% of submissions), ACM CHI 2026",
     mediaCoverage: [
       {
@@ -106,7 +113,8 @@ export const publications: Publication[] = [
     journal: "Proceedings of the ACM on Human-Computer Interaction",
     volume: "9(CSCW1)",
     pages: "1-40",
-    doi: "https://doi.org/10.1145/3757571"
+    doi: "https://doi.org/10.1145/3757571",
+    pdf: "/papers/dahlke-2025-contextualizing.pdf"
   },
   {
     title: "Untrustworthy website exposure and election beliefs: Selective exposure and ideological asymmetry",
@@ -114,7 +122,8 @@ export const publications: Publication[] = [
     year: 2025,
     journal: "Journal of Online Trust and Safety",
     volume: "3(1)",
-    doi: "https://doi.org/10.54501/jots.v3i1.250"
+    doi: "https://doi.org/10.54501/jots.v3i1.250",
+    pdf: "/papers/dahlke-2025-election-beliefs.pdf"
   },
   {
     title: "Candidates be posting: Multi-platform strategies and partisan preferences in the 2022 US midterm elections",
@@ -131,7 +140,8 @@ export const publications: Publication[] = [
     journal: "Social Science Computer Review",
     volume: "43(5)",
     pages: "1071-1086",
-    doi: "https://doi.org/10.1177/08944393231218214"
+    doi: "https://doi.org/10.1177/08944393231218214",
+    pdf: "/papers/dahlke-2025-web-scraping.pdf"
   },
   {
     title: "January 6 arrests and media coverage do not remobilize conservatives on social media",
@@ -140,7 +150,8 @@ export const publications: Publication[] = [
     journal: "Proceedings of the National Academy of Sciences",
     volume: "121(23)",
     pages: "e2401239121",
-    doi: "https://doi.org/10.1073/pnas.2401239121"
+    doi: "https://doi.org/10.1073/pnas.2401239121",
+    pdf: "/papers/dahlke-2024-january-6.pdf"
   },
   {
     title: "The private life of QAnon: A mixed methods investigation of Americans' exposure to QAnon content on the web",
@@ -150,7 +161,8 @@ export const publications: Publication[] = [
     journal: "Proceedings of the ACM on Human-Computer Interaction",
     volume: "8(CSCW2)",
     pages: "1-34",
-    doi: "https://doi.org/10.1145/3687057"
+    doi: "https://doi.org/10.1145/3687057",
+    pdf: "/papers/moore-2024-qanon.pdf"
   },
   {
     title: "Surviving or thriving political defeat on social media: A temporal analysis of how electoral loss exacerbates the gender gap in political expression",
@@ -167,7 +179,8 @@ export const publications: Publication[] = [
     year: 2024,
     journal: "Journal of Quantitative Description: Digital Media",
     volume: "4",
-    doi: "https://doi.org/10.51685/jqd.2024.012"
+    doi: "https://doi.org/10.51685/jqd.2024.012",
+    pdf: "/papers/chen-2024-inbox.pdf"
   },
   {
     title: "Audio-as-data tools: Replicating computational data processing",
@@ -175,7 +188,8 @@ export const publications: Publication[] = [
     year: 2024,
     journal: "Media and Communication",
     volume: "12",
-    doi: "https://doi.org/10.17645/mac.7851"
+    doi: "https://doi.org/10.17645/mac.7851",
+    pdf: "/papers/lukito-2024-audio.pdf"
   },
   {
     title: "Exposure to untrustworthy websites in the 2020 US election",
@@ -186,6 +200,7 @@ export const publications: Publication[] = [
     volume: "7",
     pages: "1096-1105",
     doi: "https://doi.org/10.1038/s41562-023-01564-2",
+    pdf: "/papers/moore-2023-untrustworthy.pdf",
     mediaCoverage: [
       {
         outlet: "The New York Times",
@@ -214,20 +229,23 @@ export const preprints: Publication[] = [
     isCoFirstAuthored: true,
     year: 2026,
     journal: "OSF Preprints",
-    doi: "https://doi.org/10.31234/osf.io/qtdmg_v1"
+    doi: "https://doi.org/10.31234/osf.io/qtdmg_v1",
+    pdf: "/papers/dahlke-2026-ai-untrustworthy.pdf"
   },
   {
     title: "The public sphere in private spaces: Quantifying political computer-mediated communication in personal messaging",
     authors: "Dahlke, R., & Hancock, J.",
     year: 2025,
     journal: "OSF Preprints",
-    doi: "https://osf.io/6cpv8/"
+    doi: "https://osf.io/6cpv8/",
+    pdf: "/papers/dahlke-2025-public-sphere.pdf"
   },
   {
     title: "The state of digital media data research, 2023",
     authors: "Lukito, J., Brown, M. A., Dahlke, R., Suk, J., Yang, Y., Zhang, Y., Chen, B., Kim, S. J., & Soorholtz, K.",
     year: 2023,
     journal: "Social Science Research Council",
-    doi: "http://dx.doi.org/10.26153/tsw/46177"
+    doi: "http://dx.doi.org/10.26153/tsw/46177",
+    pdf: "/papers/lukito-2023-digital-media-data.pdf"
   }
 ]
