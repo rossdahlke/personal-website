@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Teaching',
   description: 'Courses at the University of Wisconsin–Madison.',
+  alternates: {
+    canonical: '/teaching',
+  },
 }
 
 export default function Teaching() {

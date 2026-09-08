@@ -3,6 +3,9 @@ import { publications, preprints, Publication } from '@/data/publications'
 export const metadata = {
   title: 'Research',
   description: 'Publications on computational social science, misinformation, and digital media.',
+  alternates: {
+    canonical: '/research',
+  },
 }
 
 export default async function Research() {

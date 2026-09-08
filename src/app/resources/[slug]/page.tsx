@@ -51,6 +51,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: resource.title,
     description: resource.description,
+    alternates: {
+      canonical: `/resources/${params.slug}`,
+    },
   }
 }
 

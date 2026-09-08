@@ -14,6 +14,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   return {
     title: talk.title,
     description: `${talk.speaker} — ${talk.date}`,
+    alternates: {
+      canonical: `/code-lab/talks/${params.slug}`,
+    },
   }
 }
 

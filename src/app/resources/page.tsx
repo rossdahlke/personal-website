@@ -6,6 +6,9 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Resources',
   description: 'Tutorials and guides for researchers and students.',
+  alternates: {
+    canonical: '/resources',
+  },
 }
 
 async function getResources() {

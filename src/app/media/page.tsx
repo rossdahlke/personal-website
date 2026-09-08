@@ -3,6 +3,9 @@ import { media } from '@/data/media'
 export const metadata = {
   title: 'Media',
   description: 'Media coverage and press mentions.',
+  alternates: {
+    canonical: '/media',
+  },
 }
 
 export default function Media() {

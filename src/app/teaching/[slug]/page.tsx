@@ -10,6 +10,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   return {
     title: `${course.code}: ${course.title}`,
     description: `${course.code}: ${course.title}. ${course.semester}, ${course.university}.`,
+    alternates: {
+      canonical: `/teaching/${params.slug}`,
+    },
   }
 }
 

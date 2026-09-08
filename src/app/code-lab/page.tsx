@@ -3,6 +3,32 @@ import Link from 'next/link'
 import { director, graduateStudents, upcomingTalks, pastTalks } from '@/data/lab'
 import type { LabMember } from '@/data/lab'
 
+export const metadata = {
+  alternates: {
+    canonical: '/code-lab',
+  },
+}
+
+const codeLabJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ResearchOrganization',
+  name: 'CODE Lab',
+  alternateName: 'Computational Observation of Digital Exposure',
+  url: 'https://rossdahlke.com/code-lab',
+  description: 'The Computational Observation of Digital Exposure (CODE) Lab at UW–Madison.',
+  image: 'https://rossdahlke.com/images/code-hero-2.png',
+  parentOrganization: {
+    '@type': 'CollegeOrUniversity',
+    name: 'University of Wisconsin–Madison',
+  },
+  director: {
+    '@type': 'Person',
+    name: 'Ross Dahlke',
+    url: 'https://rossdahlke.com',
+    jobTitle: 'Director, CODE Lab',
+  },
+}
+
 const anchorSections = [
   { id: 'overview', label: 'Overview' },
   { id: 'people', label: 'People' },
@@ -14,6 +40,10 @@ const anchorSections = [
 export default function CodeLab() {
   return (
     <div className="pb-24 animate-fade-in">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(codeLabJsonLd) }}
+      />
       <div className="max-w-3xl mx-auto">
         {/* Header / Hero */}
         <header className="mb-16">

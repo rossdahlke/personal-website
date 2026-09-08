@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+export const metadata = {
+  alternates: {
+    canonical: '/',
+  },
+}
+
 const personJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
