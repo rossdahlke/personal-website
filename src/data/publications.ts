@@ -103,7 +103,8 @@ export const publications: Publication[] = [
     authors: "Lukito, J., Zhang, Y., Chen, B., Prochaska, S., Pruden, M. L., Yang, Y., Zhong, W., Brown, M. A., Dahlke, R., Greenfield, J., Suk, J., & Borah, P.",
     year: 2026,
     journal: "New Media & Society",
-    doi: "https://doi.org/10.1177/14614448261470889"
+    doi: "https://doi.org/10.1177/14614448261470889",
+    pdf: "/papers/lukito-2026-cross-platformization.pdf"
   },
   {
     title: "Contextualizing misinformation: A user-centric approach to linguistic and topical patterns in news consumption",
