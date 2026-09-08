@@ -1,7 +1,7 @@
 import { media } from '@/data/media'
 
 export const metadata = {
-  title: 'Media | Ross Dahlke',
+  title: 'Media',
   description: 'Media coverage and press mentions.',
 }
 

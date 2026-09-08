@@ -1,5 +1,8 @@
 export const metadata = {
-  title: 'CODE Lab | Ross Dahlke',
+  title: {
+    default: 'CODE Lab',
+    template: '%s | Ross Dahlke',
+  },
   description: 'The Computational Observation of Digital Exposure (CODE) Lab at UW–Madison.',
 }
 

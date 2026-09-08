@@ -12,7 +12,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const talk = allTalks.find((t) => t.slug === params.slug)
   if (!talk) return { title: 'Talk Not Found' }
   return {
-    title: `${talk.title} | CODE Lab`,
+    title: talk.title,
     description: `${talk.speaker} — ${talk.date}`,
   }
 }

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Teaching | Ross Dahlke',
+  title: 'Teaching',
   description: 'Courses at the University of Wisconsin–Madison.',
 }
 

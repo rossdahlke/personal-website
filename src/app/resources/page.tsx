@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Resources | Ross Dahlke',
+  title: 'Resources',
   description: 'Tutorials and guides for researchers and students.',
 }
 

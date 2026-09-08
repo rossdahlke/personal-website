@@ -1,7 +1,7 @@
 import { publications, preprints, Publication } from '@/data/publications'
 
 export const metadata = {
-  title: 'Research | Ross Dahlke',
+  title: 'Research',
   description: 'Publications on computational social science, misinformation, and digital media.',
 }
 

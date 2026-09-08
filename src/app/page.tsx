@@ -1,8 +1,32 @@
 import Image from "next/image";
 
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Ross Dahlke',
+  url: 'https://rossdahlke.com',
+  image: 'https://rossdahlke.com/images/_MG_2663.jpeg',
+  jobTitle: 'Assistant Professor',
+  email: 'ross.dahlke@wisc.edu',
+  affiliation: {
+    '@type': 'CollegeOrUniversity',
+    name: 'University of Wisconsin–Madison School of Journalism and Mass Communication',
+  },
+  sameAs: [
+    'https://github.com/rossdahlke',
+    'https://scholar.google.com/citations?user=y2g0vNwAAAAJ',
+    'https://x.com/ross_dahlke',
+    'https://bsky.app/profile/did:plc:tpjypws5r3t3xvjqswqnxnf6',
+  ],
+}
+
 export default function Home() {
   return (
     <div className="min-h-[85vh] flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
       <div className="flex-1 grid md:grid-cols-[2fr,3fr] gap-6 md:gap-16 py-8 md:py-24">
         <div className="order-2 md:order-1 space-y-4 md:space-y-6">
           <div className="card overflow-hidden p-0">

@@ -1,5 +1,18 @@
 import { courseData } from '@/data/courses'
 
+export function generateStaticParams() {
+  return Object.keys(courseData).map((slug) => ({ slug }))
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }) {
+  const course = courseData[params.slug]
+  if (!course) return { title: 'Course Not Found' }
+  return {
+    title: `${course.code}: ${course.title}`,
+    description: `${course.code}: ${course.title}. ${course.semester}, ${course.university}.`,
+  }
+}
+
 export default function CoursePage({ params }: { params: { slug: string } }) {
   const course = courseData[params.slug]
 

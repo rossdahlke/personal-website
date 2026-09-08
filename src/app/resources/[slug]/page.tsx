@@ -37,6 +37,23 @@ async function getResourceBySlug(slug: string): Promise<Resource | null> {
   }
 }
 
+export async function generateStaticParams() {
+  const dir = path.join(process.cwd(), 'content/resources')
+  const filenames = await fs.readdir(dir)
+  return filenames
+    .filter((filename) => filename.endsWith('.md'))
+    .map((filename) => ({ slug: filename.replace(/\.md$/, '') }))
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const resource = await getResourceBySlug(params.slug)
+  if (!resource) return { title: 'Resource Not Found' }
+  return {
+    title: resource.title,
+    description: resource.description,
+  }
+}
+
 export default async function ResourcePage({ params }: { params: { slug: string } }) {
   const resource = await getResourceBySlug(params.slug)
   
