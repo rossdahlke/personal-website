@@ -3,7 +3,7 @@ export const metadata = {
     default: 'CODE Lab',
     template: '%s | Ross Dahlke',
   },
-  description: 'The CODE Lab at UW–Madison studies political prediction markets and online information exposure.',
+  description: 'The CODE Lab at UW–Madison studies political prediction markets and political information exposure.',
 }
 
 import Image from 'next/image'

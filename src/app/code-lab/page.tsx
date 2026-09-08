@@ -15,10 +15,10 @@ const codeLabJsonLd = {
   name: 'CODE Lab',
   alternateName: 'Computational Observation of Digital Exposure',
   url: 'https://rossdahlke.com/code-lab',
-  description: 'The CODE Lab at UW–Madison studies political prediction markets and online information exposure.',
+  description: 'The CODE Lab at UW–Madison studies political prediction markets and political information exposure.',
   knowsAbout: [
     'Political prediction markets',
-    'Misinformation',
+    'Political information exposure',
   ],
   image: 'https://rossdahlke.com/images/code-hero-2.png',
   parentOrganization: {

@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/media',
     '/resources',
     '/code-lab',
+    '/llms.txt',
   ].map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified,

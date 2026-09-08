@@ -1,0 +1,24 @@
+# Ross Dahlke
+
+> Assistant Professor at the University of Wisconsin–Madison School of Journalism and Mass Communication. Studies political prediction markets and political information exposure and effects online and in private messaging.
+
+Director of the CODE Lab (Computational Observation of Digital Exposure) at UW–Madison. Affiliate of the Elections Research Center, the Data Science Institute, and RISE-AI. Contact: ross.dahlke@wisc.edu
+
+## Site
+
+- [Home](https://rossdahlke.com/): biography, affiliations, and contact
+- [Research](https://rossdahlke.com/research): publications and preprints
+- [CODE Lab](https://rossdahlke.com/code-lab): lab overview, people, publications, and talks
+- [Media](https://rossdahlke.com/media): press coverage
+- [CV](https://rossdahlke.com/cv): curriculum vitae (PDF at https://rossdahlke.com/cv/dahlke_ross_cv.pdf)
+- [Google Scholar](https://scholar.google.com/citations?user=y2g0vNwAAAAJ): citation profile
+
+## Selected work
+
+- [Exposure to untrustworthy websites in the 2020 US election](https://doi.org/10.1038/s41562-023-01564-2): Moore, Dahlke, and Hancock (2023), Nature Human Behaviour. Co-first authored.
+- [January 6 arrests and media coverage do not remobilize conservatives on social media](https://doi.org/10.1073/pnas.2401239121): Dahlke and Pan (2024), Proceedings of the National Academy of Sciences.
+- [Targeted digital voter suppression efforts likely decrease voter turnout](https://doi.org/10.1073/pnas.2519944123): Kim, Dahlke, Song, and Heinrich (2026), Proceedings of the National Academy of Sciences.
+- [Going light: The effects of minimal mobile phone adoption on young adults' well-being depend on motivation](https://doi.org/10.1145/3772318.3791723): Lee et al. (2026), Proceedings of the CHI Conference on Human Factors in Computing Systems. Best Paper Honorable Mention.
+- [Surviving or thriving political defeat on social media: A temporal analysis of how electoral loss exacerbates the gender gap in political expression](https://doi.org/10.1093/jcmc/zmad051): Dahlke and Zhang (2024), Journal of Computer-Mediated Communication.
+- [Electoral predictions on Polymarket: A quantitative description of trading, commenting, and reacting](https://doi.org/10.51685/jqd.2026.011): Dahlke, Mine, Zhao, Huang, and Shah (2026), Journal of Quantitative Description: Digital Media.
+- [The public sphere in private spaces: Quantifying political computer-mediated communication in personal messaging](https://osf.io/6cpv8/): Dahlke and Hancock (2025), OSF Preprints.

@@ -27,7 +27,7 @@ const personJsonLd = {
   ],
   knowsAbout: [
     'Political prediction markets',
-    'Misinformation',
+    'Political information exposure and effects',
     'Political communication in private messaging',
   ],
 }
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="space-y-4 md:space-y-6">
             <div className="card">
               <p className="text-base md:text-lg leading-relaxed mb-0">
-                I am an assistant professor at the University of Wisconsin–Madison School of Journalism and Mass Communication. I use computational social science, data science, and software development to study information exposure and effects on the open web and private communication channels, such as in text messaging, WhatsApp, Facebook Messenger, and Telegram. I also study <Link href="/code-lab">political prediction markets</Link>, using on-chain trading data from platforms such as <a href="https://doi.org/10.51685/jqd.2026.011" target="_blank" rel="noopener noreferrer">Polymarket</a>. My research has been published in journals and venues including the <em>Proceedings of the National Academy of Sciences</em> (PNAS), <em>Nature Human Behaviour</em>, <em>Journal of Computer-Mediated Communication</em>, <em>Proceedings of the ACM on Human-Computer Interaction</em> (CSCW), and <em>Proceedings of the CHI Conference on Human Factors in Computing Systems</em>. I received my PhD from Stanford University where I was a Knight-Hennessy Scholar and Stanford Data Science Scholar.
+                I am an assistant professor at the University of Wisconsin–Madison School of Journalism and Mass Communication. I use computational social science, data science, and software development to study political information exposure and effects online and in private communication channels, such as in text messaging, WhatsApp, Facebook Messenger, and Telegram. I also study <Link href="/code-lab">political prediction markets</Link>, using on-chain trading data from platforms such as <a href="https://doi.org/10.51685/jqd.2026.011" target="_blank" rel="noopener noreferrer">Polymarket</a>. My research has been published in journals and venues including the <em>Proceedings of the National Academy of Sciences</em> (PNAS), <em>Nature Human Behaviour</em>, <em>Journal of Computer-Mediated Communication</em>, <em>Proceedings of the ACM on Human-Computer Interaction</em> (CSCW), and <em>Proceedings of the CHI Conference on Human Factors in Computing Systems</em>. I received my PhD from Stanford University where I was a Knight-Hennessy Scholar and Stanford Data Science Scholar.
               </p>
             </div>
             
