@@ -2,7 +2,7 @@ import { publications, preprints, Publication } from '@/data/publications'
 
 export const metadata = {
   title: 'Research',
-  description: 'Publications on computational social science, misinformation, and digital media.',
+  description: 'Political prediction markets, misinformation, and political communication in private messaging.',
   alternates: {
     canonical: '/research',
   },
@@ -122,7 +122,7 @@ export default async function Research() {
         <header className="mb-12">
           <h1 className="mb-6 text-4xl md:text-5xl font-bold tracking-tight">Research</h1>
           <p className="text-xl font-normal text-[var(--muted)] leading-relaxed max-w-2xl">
-            My research uses computational methods, novel digital trace data collection, and field experiments to study how people interact with information online.
+            I study political prediction markets, misinformation, and political communication in private messaging.
           </p>
           <a
             href="/cv"

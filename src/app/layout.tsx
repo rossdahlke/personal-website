@@ -20,7 +20,7 @@ export const metadata = {
     default: 'Ross Dahlke',
     template: '%s | Ross Dahlke',
   },
-  description: 'Assistant Professor at UW–Madison School of Journalism and Mass Communication',
+  description: 'Assistant Professor at UW–Madison studying political prediction markets, misinformation, and political communication in private messaging',
   openGraph: {
     type: 'website',
     siteName: 'Ross Dahlke',
