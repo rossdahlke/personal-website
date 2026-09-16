@@ -8,6 +8,13 @@ export type MediaItem = {
 
 export const media: MediaItem[] = [
   {
+    outlet: "City Cast Madison",
+    title: "How AI Is Changing Madison, Plus Updates from Breese Stevens Field",
+    url: "https://madison.citycast.fm/podcasts/how-ai-is-changing-madison-plus-updates-from-breese-stevens-field",
+    date: "2026-09-16",
+    topic: "Generative AI"
+  },
+  {
     outlet: "The Cap Times",
     title: "How much screen time is OK for kids? Madison experts vary.",
     url: "https://captimes.com/news/education/how-much-screen-time-is-ok-for-kids-3-uw-madison-experts-weigh-in/article_c67dc82c-8702-406f-9acb-3dc01c976802.html",
