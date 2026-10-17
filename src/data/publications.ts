@@ -29,7 +29,8 @@ export const publications: Publication[] = [
     authors: "Dahlke, R., Yang, Y., Lukito, J., Greenfield, J., Chen, B., Brown, M. A., & Lewis, R.",
     year: 2026,
     journal: "Information, Communication & Society",
-    pages: "1-20",
+    volume: "29(4)",
+    pages: "1386-1405",
     doi: "https://doi.org/10.1080/1369118X.2026.2642851",
     pdf: "/papers/dahlke-2026-alex-jones.pdf"
   },
