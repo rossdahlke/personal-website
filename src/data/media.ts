@@ -8,6 +8,13 @@ export type MediaItem = {
 
 export const media: MediaItem[] = [
   {
+    outlet: "cleveland.com",
+    title: "Tracking the odds: What prediction markets say about Ohio's biggest 2026 races",
+    url: "https://www.cleveland.com/news/2026/10/tracking-the-odds-what-prediction-markets-say-about-ohios-biggest-2026-races.html",
+    date: "2026-10-12",
+    topic: "Prediction Markets"
+  },
+  {
     outlet: "City Cast Madison",
     title: "How AI Is Changing Madison, Plus Updates from Breese Stevens Field",
     url: "https://madison.citycast.fm/podcasts/how-ai-is-changing-madison-plus-updates-from-breese-stevens-field",
