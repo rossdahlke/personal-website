@@ -131,7 +131,7 @@ export default function CodeLab() {
           <div className="space-y-4 mb-8">
             <div className="space-y-1">
               <p className="text-base leading-relaxed pl-8 -indent-8 mb-0">
-                Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., &amp; Hancock, J. T. (2026). Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok. <em>Political Communication</em>. <a href="https://doi.org/10.1080/10584609.2026.2679492" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10584609.2026.2679492</a>
+                Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., &amp; Hancock, J. T. (2026). Multi-Platform Referrers of Misinformation: A Comparative Analysis of Misinformation Visits Referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok. <em>Political Communication</em>, 43(6), 851-887. <a href="https://doi.org/10.1080/10584609.2026.2679492" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/10584609.2026.2679492</a>
             </p>
             <p className="text-base leading-relaxed pl-8 -indent-8">
               Dahlke*, R., Moore*, R. C., &amp; Hancock, J. T. (2026). Exposure to (AI-Generated) Untrustworthy Websites in the 2024 US Election. <em>OSF Preprints</em>. <a href="https://doi.org/10.31234/osf.io/qtdmg_v1" target="_blank" rel="noopener noreferrer">https://doi.org/10.31234/osf.io/qtdmg_v1</a>

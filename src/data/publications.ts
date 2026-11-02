@@ -21,6 +21,8 @@ export const publications: Publication[] = [
     authors: "Dahlke, R., Moore, R. C., Adib-Azpeitia, D., Ugander, J., & Hancock, J. T.",
     year: 2026,
     journal: "Political Communication",
+    volume: "43(6)",
+    pages: "851-887",
     doi: "https://doi.org/10.1080/10584609.2026.2679492",
     pdf: "/papers/dahlke-2026-referrers.pdf"
   },
