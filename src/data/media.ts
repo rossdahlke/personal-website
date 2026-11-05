@@ -8,6 +8,13 @@ export type MediaItem = {
 
 export const media: MediaItem[] = [
   {
+    outlet: "The Hill",
+    title: "Prediction markets foresaw Democratic dominance in midterm elections",
+    url: "https://thehill.com/policy/sports-gaming/6199204-prediction-markets-midterm-accuracy/",
+    date: "2026-11-04",
+    topic: "Prediction Markets"
+  },
+  {
     outlet: "The Washington Post",
     title: "Nearly $1.9 billion traded on midterms in booming prediction markets",
     url: "https://www.washingtonpost.com/politics/2026/11/03/nearly-19-billion-traded-midterms-booming-prediction-markets/",
