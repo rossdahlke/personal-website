@@ -8,6 +8,13 @@ export type MediaItem = {
 
 export const media: MediaItem[] = [
   {
+    outlet: "The Washington Post",
+    title: "Nearly $1.9 billion traded on midterms in booming prediction markets",
+    url: "https://www.washingtonpost.com/politics/2026/11/03/nearly-19-billion-traded-midterms-booming-prediction-markets/",
+    date: "2026-11-03",
+    topic: "Prediction Markets"
+  },
+  {
     outlet: "cleveland.com",
     title: "Tracking the odds: What prediction markets say about Ohio's biggest 2026 races",
     url: "https://www.cleveland.com/news/2026/10/tracking-the-odds-what-prediction-markets-say-about-ohios-biggest-2026-races.html",
